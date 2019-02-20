@@ -1,0 +1,169 @@
+WebFont License – End User License Agreement
+
+This WebFont License – End User License Agreement ‘EULA’ is a legally binding contract between ‘You’ – The Customer and The Designers Foundry Ltd – ‘The Designers Foundry.’ By purchasing a License and downloading Font Software from The Designers Foundry, You agree that You have fully read, understood and agreed to the terms and conditions of this EULA.
+
+If You do not agree to the terms and conditions of this EULA, You are not authorised to purchase a WebFont License, download and use any Font Software from The Designers Foundry. You are purchasing a non-exclusive License.
+
+
+
+WebFont License Definition
+
+Each WebFont license includes all the required Font Software to stylise the text on your website with the licensed font. The WebFont License permits the use of the Font Software on one web domain via CSS rule ‘@font-face’ only.
+
+Each WebFont License permits the use of WebFont software on a single website domain according to the number of estimated views you expect on a monthly basis. If your views surpass the number of views your license permits, you must upgrade your license. You must own the domain and have full control over the content of the Website. Payment is a one-time fee unless your website grows beyond the number of licensed views, you must then purchase an additional license.
+
+
+
+Treat as Confidential
+
+You agree to treat the Font Software as confidential information. You are not permitted to copy, reproduce, transfer, sell, license, lend, file share, lease, sub-license or distribute any Font Software downloaded from The Designers Foundry.
+
+You agree not to edit, modify, reformat, translate, hack or otherwise discover the Font working files. You agree not to alter the copyright notices as contained in the Font Software code. Any manipulation, violation of use, or Font pirating activity will result in legal action and prosecution.
+
+You agree to not recreate or base your own Font on The Designers Foundry Font Software character designs.
+
+You agree to ensure the WebFonts Software is only for for the purpose of styling text within Your website. You must make effort to prevent unlicensed third-party access to the WebFont Software.
+
+
+
+Grant of License, Installation, Number of Users and views
+
+Each license purchase permits You to install the licensed Font Software on one (1) website owned and exclusively managed by a single person or company/organisation at one (1) web domain. 
+
+Font Software is not permitted to be shared across multiple websites via any form of network or server. You are not permitted to host the font on a third party service such as ‘TypeKit’ for example. Our licenses are non-exclusive and non-transferable. You are responsible for the installation of the Font Software on your website; we are unable to provide support for this.
+
+The license fee relates to the number of views you require. The default, base option allows for 30,000 views per month. If your require more views you must adjust the license options to suit. The license does not expire.
+
+
+
+Format and Software
+
+WebFont software is supplied in the following formats: EOT, TTF and WOFF. WOFF2 on request post order payment, email us.
+
+
+
+Back-up Copies
+
+You may make one copy of the Font Software for back-up purposes only. We request that you store this in a secure location on an offline hard drive, on a disc, or in a private and secure cloud storage facility.
+
+
+
+Multiple Websites/ Service Bureau/Clients
+
+You are not permitted to share WebFont Licenses and the Font Software between multiple websites or third parties. To license for multiple websites you will need to place individual orders for each website.
+
+Each website that will use the Font Software must have a WebFont License purchased. This includes Companies, Organizations or Individuals who manage multiple clients or have multiple websites such as (but not limited to) design studios, freelance workers and web hosting providers, online media websites. 
+
+
+
+Exclusively WebFont Font Software
+
+When licensing a WebFont License, the Font Software supplied is exclusively for use as a WebFont and cannot be converted for desktop use.
+
+
+
+Goods for Sale
+
+Use of our WebFont Software for designing of any physical products such as business cards, clothing, or posters is not permitted. The creation of physical products or items for sale or distribution that are essentially letterforms from Font Software is also prohibited. Further prohibited products include but are not limited to: stamps, stencils, temporary tattoos, real tattoos, alphabet stickers, alphabet toys, educational alphabet products, house numbers, alphabet letters or any words/quotes made from any material.
+
+
+
+Mobile Applications, Video Games, e-Books, Software and Hardware
+
+The use of the Font Software excludes the use in mobile applications, video games, e- books, Software, devices and all other electronic programs, applications and interfaces. You may not embed or include Font Software in products such as applications for iOS (Apple), Android, Mobile Windows, video games or computer- based Software or hardware.
+
+The Font Software must not be used in any form of digital interface or operating system such as (but not limited to) e-books, mobile phones, personal computers, electronic kiosks, gaming consoles, television interfaces, mobile applications, websites, or any other screen-based interface.
+
+
+
+Broadcasting, Television, Movies and Documentaries
+
+The use of Font Software in cartoons, movies, feature films, television shows, special broadcasts and documentaries is not permitted. Please purchase a Broadcasting / Gaming License.
+
+
+
+Other Restricted Uses
+
+You are not permitted to supply the Font Software as a font option when third parties of your website, application or kiosk are designing a document, image, product or web page.
+
+The use of Font Software in blasphemous material, pornographic material, criminally deceptive ways, dishonest ways, anti-gay material, racist material, illegal industries of any kind, or malicious or hate activity is not permitted.
+
+
+
+Warranty and Refunds
+
+The Designers Foundry warrants that the Font Software will function correctly for a 7 day time period after downloading Font Software. If the Font Software does not function correctly, You must contact The Designers Foundry within 7 days of purchase to arrange replacement of the Software. Due to the nature of digital Font Software, The Designers Foundry does not offer refunds.
+
+
+
+Ownership and Editing Software
+
+Font Software for License on The Designers Foundry is the exclusive property of the Designer listed on each Font product page. The Designers Foundry hosts the licensing and distribution on behalf of the Designers. The Font Software is not sold to You. The Designers Foundry provides You the ability to purchase a non-exclusive License, which permits You to use Font Software according to our EULA. The Font Software remains property of the respective Designer always. Only The Designers Foundry and the respective Designer are permitted to edit or modify the Font Software.
+You are not permitted to copy, redesign or modify any Font Software from The Designers Foundry and distribute it to third parties or use it yourself. You agree that the construction, organisation and design of the characters within the Font Software are the exclusive property of each Font’s respective Designer. You acknowledge that all Font Software is internationally protected under the Digital Millennium Copyright Act, Trademark Laws, Copyright Laws and locally enforced laws.
+
+
+
+Guarantee and Responsibility
+
+The Designers Foundry cannot guarantee the performance or results You may achieve by using any Font Software licensed from The Designers Foundry. In no event under any circumstances can The Designers Foundry or the Designer of any Font Software be held responsible for any indirect, direct, incidental, special, punitive, or consequential damages in any form, including lost profits, lost money, lost material assets, failure of business performance or business interruption. The Designers Foundry holds no responsibility for the manner in which Customers use Font Software licensed from The Designers Foundry. The Designers Foundry does not guarantee that the use of the Font Software will be unobstructed, uninterrupted or error-free. The Designers Foundry cannot guarantee that Font Software is without construction errors, blemishes, mistakes or any fault of any kind.
+
+In no event can The Designers Foundry or any employee, contractor, owner or Designer be held responsible for construction errors, blemishes, mistakes or any fault of any kind in the Font Software. In no event can The Designers Foundry or any employee, contractor, owner or Designer be held responsible for personal injury or property damage of any possible nature resulting from the use of the Font Software. We strive to create the best fonts possible. If you find an error with our fonts, please let us know and we will do our best to fix it for you.
+
+The Designers Foundry and its owners are not responsible if any Font Software or the content of Font Software or images on The Designers Foundry break copyright laws. The Designer of the Font agrees it is their own original work and they accept total responsibility for their Font Software.
+
+If You believe Font Software from The Designers Foundry is breaking copyright laws, contact The Designers Foundry for assistance.
+
+
+
+Violation and Termination
+
+Violation of the terms of this EULA will instantly cause your License to be discontinued and legal action will be taken against You in a court of law to cover any damages. In the event of termination, You must delete the Font Software and assure no copies of the Font Software are in your possession or in use.
+
+The Designers Foundry reserves the right to terminate your License at any time if You violate any of the terms of this EULA.
+
+
+
+Location, Venue and Choice of Law
+
+The Designers Foundry office is located in New Zealand and this EULA will be governed and construed exclusively by the Laws of New Zealand. You agree to the exclusive jurisdiction of the New Zealand courts when using this website and any Font Software licensed from The Designers Foundry.
+
+New Zealand based customers must contact The Designers Foundry to purchase with GST. 
+
+
+
+Changes to the EULA
+
+As The Designers Foundry operates in a changing technological environment, The Designers Foundry reserves the right to adjust the EULA at any time. Changes will be effective instantly upon posting of the amended EULA. You are responsible for ensuring You have read the latest EULA at your time of licensing.
+Your use of TheDesignersFoundry.com and Font Software represents that You agree to the EULA as amended.
+
+
+
+No Previous EULA or Other Agreements
+
+This EULA is the complete agreement between You and The Designers Foundry. It overrides any prior EULA and any other communications relating to the subject matter of Agreement and Font licensing. No other versions of this EULA or other agreements stating different terms can be enforceable against The Designers Foundry in the absence of a written amendment and consent from The Designers Foundry, including a written waiver of the affected terms of this Agreement. If any term(s) of this EULA is declared by a court of law to be incorrect or unenforceable, the remaining terms of this EULA will still have full merit. You agree The Designers Foundry may modify the incorrect term(s) to meet the requirements of the law to enable the desired intent of the incorrect term(s).
+
+
+
+Our Licenses
+
+The Designers Foundry trusts You will respect our vision of empowering the whole industry with affordable typography and will order the correct License for the correct number of users. Regardless, The Designers Foundry does manually inspect all orders received on a daily basis. If we believe You have purchased the incorrect License we reserve the right to contact You to confirm the correct use of the Font Software.
+
+Glossary:
+
+You: The Customer. This represents You, the Individual representing themselves or a Company or Organisation that is purchasing a License or multiple Licenses with the intention of downloading, installing and using Font Software. You/The Customer must agree to all terms and conditions of the EULA.
+The Designers Foundry: This represents The Designers Foundry Ltd., TheDesignersFoundry.com, The Designers Foundry as itself or any person(s) acting on behalf of The Designers Foundry. The Designers Foundry is an online store that
+hosts Font Software for Designers so they can be licensed, downloaded and installed by You.
+Font Software: A group of electronic data files containing a set of glyphs, characters, information or symbols in various formats. Formats of Software include but are not limited to .OTF.
+Designer/Designers: The Individual, Individuals or Company supplying The Designers Foundry Font Software. (In some cases The Designers Foundry may produce the Font Software on the Designer’s behalf with their permission to be Licensed on The Designers Foundry.)
+WebFont License: The WebFont License is the strict End User License Agreement (EULA) in which You may use Font Software from The Designers Foundry. You License the use of the Font Software according to the terms and conditions set in the EULA.
+EULA/End User License Agreement: The Agreement that You must read, understand and agree to in order to purchase a License for Font Software. The EULA enforces the limitations and permitted uses of Font Software. The EULA is a legally binding contract between You and The Designers Foundry.
+
+NOTE: THE NUMBERINGS OF THE VARIOUS SECTIONS ARE FOR CONVENIENCE ONLY AND SHALL NOT AFFECT OR CONTROL THE INTERPRETATION AND ENFORCEMENT OF THIS EULA. ANY ERRORS IN SPELLING OR GRAMMAR MAY NOT BE USED AGAINST THE DESIGNERS FOUNDRY. THE SUPPLIED GLOSSARY IS FOR REFERENCE ONLY AND THE DESIGNERS FOUNDRY RESERVES THE RIGHT TO EXPLAIN AND ADJUST ANY MISINTERPRETATION OF TERMS OR INCORRECT TERMS GIVEN IN THIS EULA.
+
+ALL PRICES AND PAYMENTS ON THIS WEBSITE ARE IN USD. THE DESIGNERS FOUNDRY HAS NO CONTROL OVER CURRENCY CONVERSIONS OR YOUR BANK FEES WHEN PURCHASING FROM US. ALL TRANSACTIONS SHOULD SHOW ON YOUR STATEMENT AS 'TDFOUNDRY' or similar. COPYRIGHT © 2017 THE DESIGNERS FOUNDRY LTD. REGISTERED IN NEW ZEALAND. “The Designers Foundry” is trademarked.  
+
+
+Illustrator, Photoshop and InDesign are registered trademarks of Adobe Systems, Inc., Microsoft Office is a registered trademark of Microsoft Corporation, Apple Safari is a registered trademark of Apple Inc., Google Chrome is a registered trademark of Google Inc. and Mozilla Firefox is a registered trademark of Mozilla Foundation/Mozilla Corporation.
+
+Last updated: 11 October 2017.
+
