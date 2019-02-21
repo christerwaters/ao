@@ -825,6 +825,9 @@ blockquote span{
 .border-radius{
 	border-radius: 7px;
 }
+button:hover{
+	cursor:pointer;
+}
 button.btn-big{
 	padding:0px 20px 10px 20px;
 }
