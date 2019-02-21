@@ -858,6 +858,8 @@ button.btn-big{
 .portfolio .col-xs-4{
     padding: 1rem;
 }
+textarea.big,
+input.big,
 .contact textarea,
 .contact input{
 	width:100%;
@@ -869,6 +871,7 @@ button.btn-big{
 	background: #000;
 	color:#FFFF00;
 }
+textarea.message.big,
 .contact .message{
 	height:200px;
 }
