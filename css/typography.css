@@ -1,6 +1,7 @@
 *{
 	transition:font-size 0.2s;
 }
+button.btn-lg,
 button.btn-big{
 	font-size:34px;
 	font-family: Averta;
