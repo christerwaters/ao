@@ -1,4 +1,52 @@
-
+.ticket{
+	margin-bottom:7px;
+}
+.ticket--status,
+.ticket--title,
+.ticket--open-date{
+	display:inline-block;
+	height:25px;
+    margin: 15px 15px 15px 15px;
+}
+.ticket--status{
+	font-family: 'Cutive Mono', monospace;
+	font-size:16px;
+	margin:0px 20px 0px 20px;
+}
+.ticket--status.open span,
+.ticket--status.closed span{
+	padding:2px 4px;
+	border:1px #000 solid;
+	border-radius:3px;
+}
+.ticket--status.open span{
+	background:#0F0;
+}
+.ticket--status.closed span{
+	background:#F00;
+	color:#fff;
+}
+.ticket--open-date{
+	float:right;
+}
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	background-color: #0000FF;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	top:0px;
+} 
+#particles-js canvas{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+	top:0px;
+}
 .transition0-1,
 .tn--0-1 {
 	transition: all 0.1s;
@@ -485,8 +533,17 @@ header.swoosh:after{
 .container.full-width{
 	width:100%;
 }
+html, body {
+  height: 100%;
+}
 
+
+.vertical-center {
+  margin-top: 50%;
+}
+.full-height,
 .container.full-height{
+	max-height:100%;
 	height:100%;
 }
 .center{
@@ -608,6 +665,14 @@ blockquote span{
   width:100%;
   height:0%;
 }
+.p40-spacer{    height: 40%;
+
+}
+.xl-spacer,
+.xlarge-spacer{
+	padding-top:246px;
+	padding-bottom:246px;
+}
 .lg-spacer,
 .large-spacer{
 	padding-top:123px;
@@ -712,11 +777,14 @@ blockquote span{
 .txt-hover-black:hover{
   color:#000;
 }
+.txt-hover-white:hover{
+  color:#fff ;
+}
 .txt-bold{
 	font-weight:700;
 }
-.txt-hover-white:hover{
-  color:#fff ;
+.txt-center{
+	text-align: center;
 }
 .txt-left{
 	text-align: left;
@@ -939,6 +1007,28 @@ blockquote span{
 .border-radius{
 	border-radius: 7px;
 }
+.bg--h-r:hover,
+.bg-hover-red:hover,
+.bg-h-y:hover,
+.bg-hover-yellow:hover,
+.bg-h-o:hover,
+.bg-hover-orange:hover,
+.bg-h-g:hover,
+.bg-hover-green:hover,
+.bg-h-p:hover,
+.bg-hover-purple:hover,
+.bg-h-bl:hover,
+.bg-hover-black:hover,
+.bg-h-wh:hover,
+.bg-hover-white:hover,
+.txt-hover-blue:hover,
+.txt-hover-red:hover,
+.txt-hover-yellow:hover,
+.txt-hover-orange:hover,
+.txt-hover-green:hover,
+.txt-hover-purple:hover,
+.txt-hover-black:hover,
+.txt-hover-white:hover,
 button:hover{
 	cursor:pointer;
 }
