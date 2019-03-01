@@ -31,18 +31,19 @@ function uploadedAudioPlay(audioFile) {
 
 function setup() {
 
+	audio.pause();
 	uploadAnim = select('#uploading-animation');
 	createCanvas(windowWidth, windowHeight);
 	pieces = 30;
 	radius = windowHeight / 4;
 
-	toggleBtn = createButton("Play / Pause");
+//	toggleBtn = createButton("Play / Pause");
 
 	uploadBtn = createFileInput(uploaded);
 
-	uploadBtn.addClass("upload-btn");
+//	uploadBtn.addClass("upload-btn");
 
-	toggleBtn.addClass("toggle-btn");
+//	toggleBtn.addClass("toggle-btn");
 	
 	toggleBtn.mousePressed(toggleAudio);
 
