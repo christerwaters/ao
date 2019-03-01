@@ -81,11 +81,11 @@ function draw() {
 	var mapbass = map(bass, 0, 255, 0, 200);
 	var scalebass = map(bass, 0, 255, 0, 0.8);
 
-//	mapMouseX = map(mouseX, 0, width, 100, 200);
-//	mapMouseScale = map(mouseX, 0, width, 0.35, 0.2);
-//	mapMouseY = map(mouseY, 0, height, windowHeight / 4, windowHeight);
+	mapMouseX = map(mouseX, 0, width, 100, 200);
+	mapMouseScale = map(mouseX, 0, width, 0.35, 0.2);
+	mapMouseY = map(mouseY, 0, height, windowHeight / 4, windowHeight);
 
-	pieces = 12;
+	pieces = 9;
 	radius = 200;
 
 	translate(windowWidth / 2, windowHeight / 2);
