@@ -1,6 +1,6 @@
 var pieces, radius, fft, mapMouseX, mapMouseY, audio, toggleBtn, uploadBtn, uploadedAudio, uploadAnim;
 var bgColor = "#fff";
-var colorPalette = ["#0f0639", "#ff006a", "#ff4f00", "#00f9d9"];
+var colorPalette = ["#F00", "#00F", "#0F0", "#FF0"];
 var uploadLoading = false;
 
 function preload() {
