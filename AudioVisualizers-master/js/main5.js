@@ -7,7 +7,7 @@ var uploadLoading = false;
 =============================================*/
 
 function preload() {
-	audio = loadSound("audio/DEMO_5.mp3");
+	audio = loadSound("audio/audio.mp3");
 }
 
 function uploaded(file) {

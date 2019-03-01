@@ -3,7 +3,7 @@ var colorPalette = ["#0f0639", "#ff006a", "#ff4f00", "#00f9d9"];
 var uploadLoading = false;
 
 function preload() {
-    audio = loadSound("audio/DEMO_2.mp3");
+    audio = loadSound("audio/audio.mp3");
 }
 
 function uploaded(file) {

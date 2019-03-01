@@ -1,12 +1,12 @@
 var pieces, radius, fft, mapMouseX, mapMouseY, audio, toggleBtn, uploadBtn, uploadedAudio, uploadAnim;
-var bgColor = "#0c0f27";
+var bgColor = "#fff";
 var bassColor = ["#313e9b", "#1200b3"];
 var midColor = "#da1500";
 var trembleColor = "#728d0d";
 var uploadLoading = false;
 
 function preload() {
-	audio = loadSound("audio/DEMO_3.mp3");
+	audio = loadSound("audio/audio.mp3");
 }
 
 
