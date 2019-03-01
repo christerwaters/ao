@@ -9,7 +9,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: #fff;
-	background: #000;
+	background: #FFF;
 	overflow: hidden;
 	font-size: 0.85rem;
 }
@@ -144,11 +144,10 @@ canvas {
 }
 
 .p5_loading {
-	background: black;
 	position: fixed;
 	left: 0;
 	top: 0;
-	background: rgb(0, 0, 0);
+	background: #FFF;
 	width: 100%;
 	height: 100%;
 	z-index: 9;
