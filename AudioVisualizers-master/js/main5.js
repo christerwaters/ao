@@ -1,4 +1,5 @@
 var pieces, radius, fft, analyzer, mapMouseX, mapMouseY, audio, toggleBtn, uploadBtn, uploadedAudio, uploadAnim;
+var bgColor = "#fff";
 var colorPalette = ["#02073c", "#5b0ff5", "#f50fac", "#f50fac"];
 var uploadLoading = false;
 
