@@ -1,5 +1,5 @@
 var pieces, radius, fft, mapMouseX, mapMouseY, audio, toggleBtn, uploadBtn, uploadedAudio, uploadAnim;
-var bgColor = "#fff";
+var bgColor = "#0c0f27";
 var bassColor = ["#313e9b", "#1200b3"];
 var midColor = "#da1500";
 var trembleColor = "#728d0d";
