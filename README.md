@@ -1,4 +1,6 @@
-# Absolutt Oslo Website
+# Absolutt Oslo
+
+A website built for a Creative Agency.
 
 # Includes
 * Meyers Web reset.css
