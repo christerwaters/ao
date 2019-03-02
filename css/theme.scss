@@ -1,3 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+textarea,
+input,
+button {
+	background: transparent;
+	border: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* END RESET */
+
+html,
+body {
+	height: 100%;
+	font-family: 'averta', sans-serif;
+}
+
+header {
+	height: 64px;
+	display: block;
+	width: 100%;
+	position: fixed;
+	z-index: 4000;
+}
+
+header .inner {
+	padding: 20px 0px 20px 10px;
+}
+
 .ticket {
 	margin-bottom: 7px;
 }
@@ -34,6 +204,84 @@
 
 .ticket--open-date {
 	float: right;
+}
+
+* {
+	transition: font-size 0.2s;
+}
+
+button.btn-lg,
+button.btn-big {
+	font-size: 34px;
+	font-family: Averta;
+}
+
+blockquote::before {
+	font-size: 6rem;
+}
+
+header {
+	font-size: 24px;
+}
+
+nav.list {
+	font-size: 1rem;
+}
+
+.support textarea,
+.support input,
+.contact textarea,
+.contact input {
+	font-size: 34px;
+	font-family: Averta;
+}
+
+h1.headline {
+	font-size: 3rem;
+}
+
+blockquote::before,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+body,
+h4 {
+	font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 48em) {
+	.intro {
+		font-size: 1.6rem;
+	}
+}
+
+@media only screen and (min-width: 64em) {
+	.intro {
+		font-size: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 75em) {
+	.intro {
+		font-size: 2rem;
+	}
 }
 
 #particles-js {
@@ -375,32 +623,14 @@
 
 
 /*
-Primary Blue. 			#00F		#00F
-Primary Red. 			#FF0000		#F00
-Primary Yellow. 		#FFFF00		#FF0
-Secondary Orange.		#FF6600		#F60
-Secondary Green. 		#00FF00		#0F0
-Secondary Purple. 		#6600FF		#60F
-Thirdly Turoise			#00FFFF		#0FF
-*/
-
-body {
-	font-family: 'averta', sans-serif;
-}
-
-header {
-	height: 64px;
-	display: block;
-	width: 100%;
-	position: fixed;
-	z-index: 4000;
-}
-
-header .inner {
-	padding: 20px 0px 20px 10px;
-}
-
-footer {}
+				Primary Blue. 			#00F
+				Primary Red. 			#F00
+				Primary Yellow. 		#FF0
+				Secondary Orange.		#F60
+				Secondary Green. 		#0F0
+				Secondary Purple. 		#60F
+				Thirdly Turoise			#0FF
+														*/
 
 footer nav {
 	margin-top: 8px;
@@ -577,11 +807,6 @@ header.swoosh:after {
 
 .container.full-width {
 	width: 100%;
-}
-
-html,
-body {
-	height: 100%;
 }
 
 .vertical-center {
