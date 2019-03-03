@@ -35,5 +35,4 @@ function draw() {
 	diamx = map(vol,0,1,100,255);
 	fill(diamx,255,diamx);
 	ellipse(width/2, height/2,height*diam,height*diam);
-	
 }
