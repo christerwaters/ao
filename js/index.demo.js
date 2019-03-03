@@ -3,7 +3,7 @@ var button;
 
 function setup() {
 	var canvas = createCanvas(200, 200);
-	canvas.parent('canvas-holder');
+	canvas.parent('sketch-holder');
 	song = loadSound("audio/demo.mp3", loaded);
 	amp = new p5.Amplitude();
 }
@@ -31,7 +31,6 @@ function togglePlaying() {
 
 function draw() {
 	background(song.currentTime() * 10,0,233);
-	
 	vol = amp.getLevel();
 	diam = map(vol,0,0.5,0,1)
 	fill(255,0,0);
