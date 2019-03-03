@@ -1,6 +1,6 @@
 # Absolutt Oslo
 
-Absolutt Oslo is a creative agency based out of Oslo, Norway. It is built with simplicity in mind, using primary and secondary colors only. 
+Absolutt Oslo is a creative agency based out of Oslo, Norway. It is built with simplicity in mind, using primary and secondary colors only. Considering these limitations, we had to be very creative in how we put together the website. 
 
 # Colors
 
