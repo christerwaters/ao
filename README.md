@@ -19,48 +19,34 @@ Absolutt Oslo is a creative agency based out of Oslo, Norway. It is built with s
 
 Red and blue
 ![Red and blue ](https://github.com/christerwaters/ao-frontend/blob/master/img/r-b.jpg "Red and blue gradient")
-
 Red and yellow
 ![Red and yellow](https://github.com/christerwaters/ao-frontend/blob/master/img/r-y.jpg "Red and yellow gradient")
-
 Red and purple
 ![Red and purple](https://github.com/christerwaters/ao-frontend/blob/master/img/r-p.jpg "Red and purple gradient")
-
 Red and green
 ![Red and green](https://github.com/christerwaters/ao-frontend/blob/master/img/r-g.jpg "Red and green gradient")
-
 Red and orange
 ![Red and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/r-o.jpg "Red and orange gradient")
-
 Blue and yellow
 ![Blue and yellow](https://github.com/christerwaters/ao-frontend/blob/master/img/b-y.jpg "Blue and yellow gradient")
-
 Blue and purple
 ![Blue and purple](https://github.com/christerwaters/ao-frontend/blob/master/img/b-p.jpg "Blue and purple gradient")
-
 Blue and green
 ![Blue and green](https://github.com/christerwaters/ao-frontend/blob/master/img/b-g.jpg "Blue and green gradient")
-
 Blue and orange
 ![Blue and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/b-o.jpg "Blue and orange gradient")
-
 Yellow and Purple
 ![Yellow and Purple](https://github.com/christerwaters/ao-frontend/blob/master/img/y-p.jpg "Yellow and Purple gradient")
-
 Yellow and green
 ![Yellow and green](https://github.com/christerwaters/ao-frontend/blob/master/img/y-g.jpg "Yellow and green gradient")
-
 Yellow and orange
 ![Yellow and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/y-o.jpg "Yellow and orange gradient")
-
 Purple and green
-![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
-
+![Purple and green](https://github.com/christerwaters/ao-frontend/blob/master/img/p-g.jpg "Purple and green gradient")
 Purple and orange
-![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
-
+![Purple and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/p-o.jpg "Purple and orange gradient")
 Green and orange
-![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
+![Green and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/g-o.jpg "Green and orange gradient")
 
 #### [DEMO](http://34.76.50.241/ao-frontend/ "Demo Site")
 
