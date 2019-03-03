@@ -6,10 +6,18 @@ Absolutt Oslo is a creative agency based out of Oslo, Norway. It is built with s
 
 ![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
 
+| Color		| Hex  	| RGB  		  	|
+| --------- |:-----:| -------------:|
+| Red		| #F00	| (255, 0, 0)	|
+| Blue		| #00F  | (0, 0, 255)	|
+| Yellow	| #FF0	| (255, 255, 0) |
+| Purple	| #60F	| (102, 0, 255)	|
+| Green		| #0F0	| (0, 255, 0)	|
+| Orange	| #F60	| (255, 102, 0)	|
 
 #### [DEMO](http://34.76.50.241/ao-frontend/ "Demo Site")
 
-# Used to build this site
+# Libraries used to build this site
 * [jquery.js](http://jquery.com/ "Jquery")
 * [p5.js](https://p5js.org/download/ "P5")
 * [p5.dom.js](https://p5js.org/download/ "P5 DOM")
