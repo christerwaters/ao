@@ -1030,14 +1030,26 @@ blockquote span{
 button:hover{
 	cursor:pointer;
 }
+.demo{
+	z-index:10;
+}
+.demo .container{
+	z-index:20;
+}
+#sketch-holder,
+#sketch-holder canvas {
+	z-index:-10;
+}
 #sketch-holder canvas {
 	position:absolute;
 	width:100% !important;
 	min-width:100% !important;
 	min-height:100% !important;
-	z-index:2000;
+	pointer-events: none;
 }
-button.btn-play,
+.btn-play{
+	margin:20px 20px 10px 20px;
+}
 button.btn-big,
 button.btn-lg{
 	padding:4px 20px 10px 20px;

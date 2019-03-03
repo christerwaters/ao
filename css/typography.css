@@ -1,10 +1,11 @@
 *{
 	transition:font-size 0.2s;
 }
-button.btn-play,
+.btn-play button span,
+.btn-play button,
 button.btn-lg,
 button.btn-big{
-	font-size:34px;
+	font-size:34px !important;
 	font-family: Averta;
 }
 blockquote::before{
