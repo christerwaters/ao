@@ -25,8 +25,6 @@ Blue and yellow
 ![Blue and yellow](https://github.com/christerwaters/ao-frontend/blob/master/img/b-y.jpg "Blue and yellow gradient")
 Red and purple
 ![Red and purple](https://github.com/christerwaters/ao-frontend/blob/master/img/r-p.jpg "Red and purple gradient")
-Red and green
-![Red and green](https://github.com/christerwaters/ao-frontend/blob/master/img/r-g.jpg "Red and green gradient")
 Red and orange
 ![Red and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/r-o.jpg "Red and orange gradient")
 Blue and purple
@@ -43,6 +41,8 @@ Blue and orange
 ![Blue and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/b-o.jpg "Blue and orange gradient")
 Yellow and green
 ![Yellow and green](https://github.com/christerwaters/ao-frontend/blob/master/img/y-g.jpg "Yellow and green gradient")
+Red and green
+![Red and green](https://github.com/christerwaters/ao-frontend/blob/master/img/r-g.jpg "Red and green gradient")
 Yellow and orange
 ![Yellow and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/y-o.jpg "Yellow and orange gradient")
 Green and orange
