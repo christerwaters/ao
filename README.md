@@ -42,16 +42,16 @@ Blue and green
 ![Blue and green](https://github.com/christerwaters/ao-frontend/blob/master/img/b-g.jpg "Blue and green gradient")
 
 Blue and orange
-![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
+![Blue and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/b-o.jpg "Blue and orange gradient")
 
 Yellow and Purple
-![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
+![Yellow and Purple](https://github.com/christerwaters/ao-frontend/blob/master/img/y-p.jpg "Yellow and Purple gradient")
 
 Yellow and green
-![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
+![Yellow and green](https://github.com/christerwaters/ao-frontend/blob/master/img/y-g.jpg "Yellow and green gradient")
 
 Yellow and orange
-![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
+![Yellow and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/y-o.jpg "Yellow and orange gradient")
 
 Purple and green
 ![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
