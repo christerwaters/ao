@@ -2,7 +2,8 @@ var song;
 var button;
 
 function setup() {
-	createCanvas(200, 200);
+	var canvas = createCanvas(200, 200);
+	canvas.parent('canvas-holder');
 	song = loadSound("audio/demo.mp3", loaded);
 	amp = new p5.Amplitude();
 }
