@@ -2,6 +2,7 @@
 
 Absolutt Oslo is a creative agency based out of Oslo, Norway. It is built with simplicity in mind, using primary and secondary colors only. 
 
+![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.png "Logo Title Text 1")
 
 
 #### [DEMO](http://34.76.50.241/ao-frontend/ "Demo Site")
