@@ -1,6 +1,8 @@
 var song;
 var button;
 
+var volHistory = [];
+
 function setup() {
 	var canvas = createCanvas(windowWidth, windowHeight);
 	canvas.parent('sketch-holder');
@@ -29,10 +31,19 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 function draw() {
-	background(0,0,0,0);
-	vol = amp.getLevel();
-	diam = map(vol,0,0.5,0,1);
-	diamx = map(vol,0,1,100,255);
-	fill(diamx,255,diamx);
-	ellipse(width/2, height/2,height*diam,height*diam);
+	background(255,255,255);
+	var vol = amp.getLevel();
+	volHistory.push(vol);
+	stroke(0);
+	noFill();
+	beginShape();
+		for (var i = 0; i < volHistory.length; i++){
+			var y = map(volHistory[i], 0, 1, windowHeight, 0);
+			vertex(i, y);
+		}
+	endShape();
+	
+	if (volHistory.length>width){
+		volHistory.splice(0,10);
+	}
 }
