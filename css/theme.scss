@@ -7,6 +7,9 @@
 .overlay active{
 	width:100%;
 }
+.hide {
+	display:none;
+}
 canvas#mathglobe {
   width:20vw;
   height:20vw;
@@ -52,7 +55,7 @@ canvas#mathglobe {
 	background-size: cover;
 	background-position: 50% 50%;
 	top:0px;
-} 
+}
 #particles-js canvas.particles-js-canvas-el{
     position: fixed;
     width: 100%;
@@ -393,7 +396,7 @@ footer nav {
 	margin-top:8px;
 }
 nav.index{
-	
+
 }
 nav.index ul,
 nav.index ul li,
@@ -402,17 +405,17 @@ nav.index ul li ul li{
 	margin-left:10px;
 }
 nav.index ul{
-	
+
 }
 nav.index ul li{
-	
-	
+
+
 }
 nav.index ul li ul{
-	
+
 }
 nav.index ul li ul li{
-	
+
 }
 nav.list ul li{
 	padding-left:20px;
@@ -654,11 +657,11 @@ blockquote::before{
   margin-top:0rem;
   width:0%;
   height:0%;
-  transition:all .2s;  
+  transition:all .2s;
   top:100%;
-  left:100%; 
-  transition:top .4s;  
-  transition:left .4s;  
+  left:100%;
+  transition:top .4s;
+  transition:left .4s;
 }
 blockquote::after{
   content: '';
@@ -1081,7 +1084,7 @@ button.btn-lg{
   opacity:.8;
   -webkit-filter: grayscale(100%) contrast(110%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) contrast(110%);
-  transition:all .2s;   
+  transition:all .2s;
 }
 .portfolio img:hover{
   max-width: 100%;

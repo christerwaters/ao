@@ -7,6 +7,9 @@
 .overlay active {
   width: 100%; }
 
+.hide {
+  display: none; }
+
 canvas#mathglobe {
   width: 20vw;
   height: 20vw; }
