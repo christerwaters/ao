@@ -1,3 +1,12 @@
+.overlay{
+	display:block;
+	position:fixed;
+	width:0%;
+	heght:100%;
+}
+.overlay active{
+	width:100%;
+}
 .ticket{
 	margin-bottom:7px;
 }
