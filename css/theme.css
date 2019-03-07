@@ -2,7 +2,8 @@
   display: block;
   position: fixed;
   width: 0%;
-  heght: 100%; }
+  height: 100%;
+  z-index: 4200; }
 
 .overlay active {
   width: 100%; }
