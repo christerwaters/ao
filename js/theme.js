@@ -1,6 +1,20 @@
+
+$(document).ready(function(){
+  $(".portfolio-item").click(function(){
+    $(".overlay").addClass("overlay-active");
+    $(".overlay--x").addClass("overlay-active");
+    $("body").addClass("overlay-active");
+  });
+    $(".overlay-x").click(function(){
+      $(".overlay").removeClass("overlay-active");
+      $(".overlay--x").removeClass("overlay-active");
+      $("body").removeClass("overlay-active");
+    });
+});
+
 // Script
 lastScroll = 0;
-$(window).on('scroll',function() {    
+$(window).on('scroll',function() {
     var scroll = $(window).scrollTop();
     if(lastScroll - scroll > 0) {
         $("header").addClass("s--up");
@@ -14,5 +28,6 @@ $(window).on('scroll',function() {
         if (top_offset == 0) {
             $('header').removeClass('s--up');
         }
-    })	
+    })
+
 });
