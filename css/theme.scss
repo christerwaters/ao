@@ -4,9 +4,11 @@
 	width:0%;
 	height:100%;
   z-index: 4200;
+	background:transparent;
 }
 .overlay.active{
 	width:100%;
+	background:#000;
 }
 .hide {
 	display:none;

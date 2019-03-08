@@ -3,10 +3,12 @@
   position: fixed;
   width: 0%;
   height: 100%;
-  z-index: 4200; }
+  z-index: 4200;
+  background: transparent; }
 
 .overlay.active {
-  width: 100%; }
+  width: 100%;
+  background: #000; }
 
 .hide {
   display: none; }
