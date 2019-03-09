@@ -11,8 +11,6 @@ $(document).ready(function(){
       $("body").removeClass("overlay-active");
     });
 });
-
-// Script
 lastScroll = 0;
 $(window).on('scroll',function() {
     var scroll = $(window).scrollTop();
