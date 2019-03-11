@@ -20,7 +20,7 @@
 	color:$black;
 }
 .txt-white{
-	color:#fff;
+	color:$white;
 }
 .bg-blue{
   background:$red;
@@ -44,7 +44,7 @@
   background:$black;
 }
 .bg-white{
-  background:#fff;
+  background:$white;
 }
 .bg--h-b:hover,
 .bg-hover-blue:hover{
@@ -76,7 +76,7 @@
 }
 .bg-h-wh:hover,
 .bg-hover-white:hover{
-  background:#fff;
+  background:$white;
 }
 .txt-hover-blue:hover{
   color:$red;
@@ -100,162 +100,325 @@
   color:$black;
 }
 .txt-hover-white:hover{
-  color:#fff ;
+  color:$white;
 }
+
+.border-bottom-blue{
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color:$blue;
+}
+.border-bottom-red{
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color:$red;
+}
+.border-bottom-yellow{
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color:$yellow;
+}
+.border-bottom-orange{
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color:$orange;
+}
+.border-bottom-green{
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color:$green;
+}
+.border-bottom-purple{
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color:$purple;
+}
+.border-bottom-black{
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color:$black;
+}
+.border-bottom-white{
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color:$white;
+}
+.border-xs-blue,
+.border-xs-red,
+.border-xs-yellow,
+.border-xs-orange,
+.border-xs-green,
+.border-xs-purple,
+.border-xs-black,
+.border-sm-white,
+.border-sm-blue,
+.border-sm-red,
+.border-sm-yellow,
+.border-sm-orange,
+.border-sm-green,
+.border-sm-purple,
+.border-sm-black,
+.border-sm-white,
+.border-md-blue,
+.border-md-red,
+.border-md-yellow,
+.border-md-orange,
+.border-md-green,
+.border-md-purple,
+.border-md-black,
+.border-md-white,
+.border-lg-blue,
+.border-lg-red,
+.border-lg-yellow,
+.border-lg-orange,
+.border-lg-green,
+.border-lg-purple,
+.border-lg-black,
+.border-white,
+.border-blue,
+.border-red,
+.border-yellow,
+.border-orange,
+.border-green,
+.border-purple,
+.border-black,
+.border-white{
+	border-style: solid;
+}
+
+.border-xs-blue,
+.border-xs-red,
+.border-xs-yellow,
+.border-xs-orange,
+.border-xs-green,
+.border-xs-purple,
+.border-xs-black,
+.border-xs-white{
+	border-width: 1px;
+}
+.border-sm-blue,
+.border-sm-red,
+.border-sm-yellow,
+.border-sm-orange,
+.border-sm-green,
+.border-sm-purple,
+.border-sm-black,
+.border-sm-white{
+	border-width: 2px;
+}
+.border-md-blue,
+.border-blue,
+.border-md-red,
+.border-red,
+.border-md-yellow,
+.border-yellow,
+.border-md-orange,
+.border-orange,
+.border-md-green,
+.border-green,
+.border-md-purple,
+.border-purple,
+.border-md-black,
+.border-black,
+.border-md-white,
+.border-white{
+	border-width: 4px;
+}
+.border-lg-blue,
+.border-lg-red,
+.border-lg-yellow,
+.border-lg-orange,
+.border-lg-green,
+.border-lg-purple,
+.border-lg-black,
+.border-lg-white{
+	border-width: 7px;
+}
+.border-xs-blue,
+.border-sm-blue,
+.border-lg-blue,
+.border-blue{
+	border-color:$blue;
+}
+.border-xs-red,
+.border-sm-red,
+.border-lg-red,
+.border-red{
+	border-color:$red;
+}
+.border-xs-yellow,
+.border-sm-yellow,
+.border-lg-yellow,
+.border-yellow{
+	border-color:$yellow;
+}
+.border-xs-orange,
+.border-sm-orange,
+.border-lg-orange,
+.border-orange{
+	border-color:$orange;
+}
+.border-xs-green,
+.border-sm-green,
+.border-lg-green,
+.border-green{
+	border-color:$green;
+}
+.border-xs-purple,
+.border-sm-purple,
+.border-lg-purple,
+.border-purple{
+	border-color:$purple;
+}
+.border-xs-black,
+.border-sm-black,
+.border-lg-black,
+.border-black{
+	border-color:$black;
+}
+.border-xs-white,
+.border-sm-white,
+.border-lg-white,
+.border-white{
+	border-color:$white;
+}
+.bg-gradient-w-b-0deg,
 .bg-gradient-white-blue-0deg{
-  background-image: linear-gradient(0deg, #fff, $red);
+  background-image: linear-gradient(0deg, $white, $red);
 }
+.bg-gradient-w-b-45deg,
 .bg-gradient-white-blue-45deg{
-  background-image: linear-gradient(45deg, #fff, $red);
+  background-image: linear-gradient(45deg, $white, $red);
 }
+.bg-gradient-w-b-90deg,
 .bg-gradient-white-blue-90deg{
-  background-image: linear-gradient(90deg, #fff, $red);
+  background-image: linear-gradient(90deg, $white, $red);
 }
 .bg-gradient-white-blue-135deg{
-  background-image: linear-gradient(135deg, #fff, $red);
+  background-image: linear-gradient(135deg, $white, $red);
 }
 .bg-gradient-white-blue-180deg{
-  background-image: linear-gradient(180deg, #fff, $red);
-}
-.bg-gradient-t-b-0deg,
-.bg-gradient-turquoise-blue-0deg{
-  background-image: linear-gradient(0deg, #0ff, $red);
-}
-.bg-gradient-t-b-45deg,
-.bg-gradient-turquoise-blue-45deg{
-  background-image: linear-gradient(45deg, #0ff, $red);
-}
-.bg-gradient-t-b-90deg,
-.bg-gradient-turquoise-blue-90deg{
-  background-image: linear-gradient(90deg, #0ff, $red);
-}
-.bg-gradient-t-b-135deg,
-.bg-gradient-turquoise-blue-135deg{
-  background-image: linear-gradient(135deg, #0ff, $red);
-}
-.bg-gradient-t-b-180deg,
-.bg-gradient-turquoise-blue-180deg{
-  background-image: linear-gradient(180deg, #0ff, $red);
+  background-image: linear-gradient(180deg, $white, $red);
 }
 .bg-gradient-white-red-0deg{
-  background-image: linear-gradient(0deg, #fff, $red);
+  background-image: linear-gradient(0deg, $white, $red);
 }
 .bg-gradient-white-red-45deg{
-  background-image: linear-gradient(45deg, #fff, $red);
+  background-image: linear-gradient(45deg, $white, $red);
 }
 .bg-gradient-white-red-90deg{
-  background-image: linear-gradient(90deg, #fff, $red);
+  background-image: linear-gradient(90deg, $white, $red);
 }
 .bg-gradient-white-red-135deg{
-  background-image: linear-gradient(135deg, #fff, $red);
+  background-image: linear-gradient(135deg, $white, $red);
 }
 .bg-gradient-white-red-180deg{
-  background-image: linear-gradient(180deg, #fff, $red);
+  background-image: linear-gradient(180deg, $white, $red);
 }
 .bg-gradient-white-yellow-0deg{
-  background-image: linear-gradient(0deg, #fff, $yellow);
+  background-image: linear-gradient(0deg, $white, $yellow);
 }
 .bg-gradient-white-yellow-45deg{
-  background-image: linear-gradient(45deg, #fff, $yellow);
+  background-image: linear-gradient(45deg, $white, $yellow);
 }
 .bg-gradient-white-yellow-90deg{
-  background-image: linear-gradient(90deg, #fff, $yellow);
+  background-image: linear-gradient(90deg, $white, $yellow);
 }
 .bg-gradient-white-yellow-135deg{
-  background-image: linear-gradient(135deg, #fff, $yellow);
+  background-image: linear-gradient(135deg, $white, $yellow);
 }
 .bg-gradient-white-yellow-180deg{
-  background-image: linear-gradient(180deg, #fff, $yellow);
+  background-image: linear-gradient(180deg, $white, $yellow);
 }
 .bg-gradient-white-orange-0deg{
-  background-image: linear-gradient(0deg, #fff, $orange);
+  background-image: linear-gradient(0deg, $white, $orange);
 }
 .bg-gradient-white-orange-45deg{
-  background-image: linear-gradient(45deg, #fff, $orange);
+  background-image: linear-gradient(45deg, $white, $orange);
 }
 .bg-gradient-white-orange-90deg{
-  background-image: linear-gradient(90deg, #fff, $orange);
+  background-image: linear-gradient(90deg, $white, $orange);
 }
 .bg-gradient-white-orange-135deg{
-  background-image: linear-gradient(135deg, #fff, $orange);
+  background-image: linear-gradient(135deg, $white, $orange);
 }
 .bg-gradient-white-orange-180deg{
-  background-image: linear-gradient(180deg, #fff, $orange);
+  background-image: linear-gradient(180deg, $white, $orange);
 }
 .bg-gradient-white-green-0deg{
-  background-image: linear-gradient(0deg, #fff, $green);
+  background-image: linear-gradient(0deg, $white, $green);
 }
 .bg-gradient-white-green-45deg{
-  background-image: linear-gradient(45deg, #fff, $green);
+  background-image: linear-gradient(45deg, $white, $green);
 }
 .bg-gradient-white-green-90deg{
-  background-image: linear-gradient(90deg, #fff, $green);
+  background-image: linear-gradient(90deg, $white, $green);
 }
 .bg-gradient-white-green-135deg{
-  background-image: linear-gradient(135deg, #fff, $green);
+  background-image: linear-gradient(135deg, $white, $green);
 }
 .bg-gradient-white-green-180deg{
-  background-image: linear-gradient(180deg, #fff, $green);
+  background-image: linear-gradient(180deg, $white, $green);
 }
 .bg-gradient-purple-yellow-0deg{
-  background-image: linear-gradient(0deg, #60F, $yellow);
+  background-image: linear-gradient(0deg, $purple, $yellow);
 }
 .bg-gradient-purple-yellow-45deg{
-  background-image: linear-gradient(45deg, #60F, $yellow);
+  background-image: linear-gradient(45deg, $purple, $yellow);
 }
 .bg-gradient-purple-yellow-90deg{
-  background-image: linear-gradient(90deg, #60F, $yellow);
+  background-image: linear-gradient(90deg, $purple, $yellow);
 }
 .bg-gradient-purple-yellow-135deg{
-  background-image: linear-gradient(135deg, #60F, $yellow);
+  background-image: linear-gradient(135deg, $purple, $yellow);
 }
 .bg-gradient-purple-yellow-180deg{
-  background-image: linear-gradient(180deg, #60F, $yellow);
+  background-image: linear-gradient(180deg, $purple, $yellow);
 }
 .bg-gradient-white-purple-0deg{
-  background-image: linear-gradient(0deg, #fff, $purple);
+  background-image: linear-gradient(0deg, $white, $purple);
 }
 .bg-gradient-white-purple-45deg{
-  background-image: linear-gradient(45deg, #fff, $purple);
+  background-image: linear-gradient(45deg, $white, $purple);
 }
 .bg-gradient-white-purple-90deg{
-  background-image: linear-gradient(90deg, #fff, $purple);
+  background-image: linear-gradient(90deg, $white, $purple);
 }
 .bg-gradient-white-purple-135deg{
-  background-image: linear-gradient(135deg, #fff, $purple);
+  background-image: linear-gradient(135deg, $white, $purple);
 }
 .bg-gradient-purple-white-180deg{
-  background-image: linear-gradient(180deg, $purple, #fff);
+  background-image: linear-gradient(180deg, $purple, $white);
 }
 .bg-gradient-purple-white-0deg{
-  background-image: linear-gradient(0deg, $purple, #fff);
+  background-image: linear-gradient(0deg, $purple, $white);
 }
 .bg-gradient-purple-white-45deg{
-  background-image: linear-gradient(45deg, $purple, #fff);
+  background-image: linear-gradient(45deg, $purple, $white);
 }
 .bg-gradient-purple-white-90deg{
-  background-image: linear-gradient(90deg, $purple, #fff);
+  background-image: linear-gradient(90deg, $purple, $white);
 }
 .bg-gradient-purple-white-135deg{
-  background-image: linear-gradient(135deg, $purple, #fff);
+  background-image: linear-gradient(135deg, $purple, $white);
 }
 .bg-gradient-purple-white-180deg{
-  background-image: linear-gradient(180deg, $purple, #fff);
+  background-image: linear-gradient(180deg, $purple, $white);
 }
 .bg-gradient-blue-white-0deg{
-  background-image: linear-gradient(0deg, $red, #fff);
+  background-image: linear-gradient(0deg, $red, $white);
 }
 .bg-gradient-blue-white-45deg{
-  background-image: linear-gradient(45deg, $red, #fff);
+  background-image: linear-gradient(45deg, $red, $white);
 }
 .bg-gradient-blue-white-90deg{
-  background-image: linear-gradient(90deg, $red, #fff);
+  background-image: linear-gradient(90deg, $red, $white);
 }
 .bg-gradient-blue-white-135deg{
-  background-image: linear-gradient(135deg, $red, #fff);
+  background-image: linear-gradient(135deg, $red, $white);
 }
 .bg-gradient-blue-white-180deg{
-  background-image: linear-gradient(180deg, $red, #fff);
+  background-image: linear-gradient(180deg, $red, $white);
 }
 .bg-gradient-blue-red-0deg{
   background-image: linear-gradient(0deg, $red, $red);
@@ -348,19 +511,19 @@
   background-image: linear-gradient(180deg, $red, $purple);
 }
 .bg-gradient-red-white-0deg{
-  background-image: linear-gradient(0deg, $red, #fff);
+  background-image: linear-gradient(0deg, $red, $white);
 }
 .bg-gradient-red-white-45deg{
-  background-image: linear-gradient(45deg, $red, #fff);
+  background-image: linear-gradient(45deg, $red, $white);
 }
 .bg-gradient-red-white-90deg{
-  background-image: linear-gradient(90deg, $red, #fff);
+  background-image: linear-gradient(90deg, $red, $white);
 }
 .bg-gradient-red-white-135deg{
-  background-image: linear-gradient(135deg, $red, #fff);
+  background-image: linear-gradient(135deg, $red, $white);
 }
 .bg-gradient-red-white-180deg{
-  background-image: linear-gradient(180deg, $red, #fff);
+  background-image: linear-gradient(180deg, $red, $white);
 }
 .bg-gradient-red-blue-0deg{
   background-image: linear-gradient(0deg, $red, $red);
