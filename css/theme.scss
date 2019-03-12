@@ -87,7 +87,7 @@ canvas#mathglobe {
     position: absolute;
     width: 100%;
     height: 100%;
-	background-color: #0000FF;
+	background-color: $blue;
 	background-image: url("");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -101,15 +101,6 @@ canvas#mathglobe {
     z-index: -1;
 	top:0px;
 }
-/*
-Primary Blue. 			#00F		#00F
-Primary Red. 			#FF0000		#F00
-Primary Yellow. 		#FFFF00		#FF0
-Secondary Orange.		#FF6600		#F60
-Secondary Green. 		#00FF00		#0F0
-Secondary Purple. 		#6600FF		#60F
-Thirdly Turoise			#00FFFF		#0FF
-*/
 body{
   font-family: 'averta', sans-serif;
 }
@@ -157,8 +148,8 @@ nav.list ul li ul li{
     border-left: 0px solid #000;
 }
 *::selection{
-	background:#00F;
-	color:#fff;
+	background:$blue;
+	color:$white;
 }
 nav.list ul li:after{
 	content: '';
@@ -309,7 +300,7 @@ blockquote{
 }
 
 blockquote.bq-blue{
-  border-left:8px solid #00F;
+  border-left:8px solid $blue;
 }
 blockquote.bq-red{
   border-left:8px solid #FF0000;
@@ -333,7 +324,7 @@ blockquote.bq-white::before{
   color: #fff ;
 }
 blockquote.bq-blue::before{
-  color: #00F;
+  color: $blue;
 }
 blockquote.bq-red::before{
   color: #FF0000;
@@ -514,7 +505,7 @@ blockquote span{
 .border-sm-blue,
 .border-lg-blue,
 .border-blue{
-	border-color:#00F;
+	border-color:$blue;
 }
 .border-xs-red,
 .border-sm-red,
@@ -570,7 +561,7 @@ blockquote span{
 .border-bottom-blue{
 	border-bottom-style: solid;
 	border-bottom-width: 4px;
-	border-bottom-color:#00F;
+	border-bottom-color:$blue;
 }
 .border-bottom-red{
 	border-bottom-style: solid;
