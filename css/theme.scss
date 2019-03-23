@@ -369,8 +369,8 @@ blockquote::before{
   right: 0;
   margin-left:-.9rem;
   margin-top:-.9rem;
-    height: calc(100%); /* THIS NEEDS TO BE UPDATED TO A MORE PERMANENT SOLUTION*/
-    width: calc(100%);
+    height: 100%; /* THIS NEEDS TO BE UPDATED TO A MORE PERMANENT SOLUTION*/
+    width: 100%;
   opacity: 1;
   border:2px #00f solid;
   color:transparent;
@@ -388,6 +388,28 @@ blockquote::before{
   left:100%;
   transition:top .4s;
   transition:left .4s;
+}
+
+.portfolio-item img,
+.portfolio img{
+  max-width: 100%;
+	width: 100%;
+  opacity:.8;
+  -webkit-filter: grayscale(100%) contrast(110%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) contrast(110%);
+  transition:all .2s;
+}
+.portfolio img:hover{
+  max-width: 100%;
+	width: 100%;
+  opacity:1;
+  -webkit-filter: grayscale(0%) contrast(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%) contrast(100%);
+  transition:all .2s;
+  transition:opacity .4s;
+}
+.portfolio .col-xs-4{
+    padding: 1rem;
 }
 blockquote::after{
   content: '';
@@ -636,24 +658,6 @@ button.btn-lg{
 }
 .work .portfolio{
     margin-top:-160px;
-}
-.portfolio img{
-  max-width: 100%;
-  opacity:.8;
-  -webkit-filter: grayscale(100%) contrast(110%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%) contrast(110%);
-  transition:all .2s;
-}
-.portfolio img:hover{
-  max-width: 100%;
-  opacity:1;
-  -webkit-filter: grayscale(0%) contrast(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%) contrast(100%);
-  transition:all .2s;
-  transition:opacity .4s;
-}
-.portfolio .col-xs-4{
-    padding: 1rem;
 }
 textarea.big,
 input.big,
