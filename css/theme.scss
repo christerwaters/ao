@@ -580,10 +580,10 @@ blockquote span{
   line-height: 0.6em;
   position: relative;
 }
-#tail img{
+.tail img{
 	width:100%;
 }
-#tail{
+.tail{
 	top:0;
 	left:0;
 	display:none;
@@ -591,7 +591,7 @@ blockquote span{
 	float: left;
 	width:200px;
 }
-.person:hover #tail{
+.person:hover .tail{
 	position: absolute;
 	float: left;
 	display:block;
