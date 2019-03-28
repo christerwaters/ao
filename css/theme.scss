@@ -580,6 +580,19 @@ blockquote span{
   line-height: 0.6em;
   position: relative;
 }
+#tail img{
+	width:100%;
+	height:100%;
+}
+#tail{
+	display:none;
+	position:absolute;
+	width:200px;
+	height:200px;
+}
+.person:hover #tail{
+	display:block;
+}
 .people .row .col-xs-6{
 	padding-left:2rem;
 	padding-right:2rem;
