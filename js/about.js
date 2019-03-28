@@ -1,10 +1,10 @@
 $(document).bind('mousemove', function(e){
     $('.tail').css({
-       left:  e.pageX + 20,
-       top:   e.pageY
+       left:  e.pageX + Math.floor((Math.random() * 10) + 1),
+       top:   e.pageY + Math.floor((Math.random() * 10) + 1)
     });
     $('.tail').css({
-       left:  e.pageX + 20,
-       top:   e.pageY
+       left:  e.pageX + Math.floor((Math.random() * 10) + 1),
+       top:   e.pageY + Math.floor((Math.random() * 10) + 1)
     });
 });
