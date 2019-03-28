@@ -590,13 +590,13 @@ blockquote span{
 	position: absolute;
 	float: left;
 	width:200px;
-	transition: top 2s, left 2s;
+	transition: top .2s, left .2s;
 }
 .person:hover .tail{
 	position: absolute;
 	float: left;
 	display:block;
-	transition: top 2s, left 2s;
+	transition: top .2s, left .2s;
 }
 .people .row .col-xs-6{
 	padding-left:2rem;
