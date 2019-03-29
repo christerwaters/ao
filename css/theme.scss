@@ -582,6 +582,7 @@ blockquote span{
 }
 .tail img{
 	width:100%;
+	height:auto;
 }
 .tail{
 	top:0;
@@ -589,7 +590,7 @@ blockquote span{
 	display:none;
 	position: absolute;
 	float: left;
-	width:200px;
+	width:40%;
 	transition: top .2s, left .2s;
 }
 .person:hover .tail{
