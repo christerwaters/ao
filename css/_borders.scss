@@ -1,0 +1,145 @@
+
+.border-xs-blue,
+.border-xs-red,
+.border-xs-yellow,
+.border-xs-orange,
+.border-xs-green,
+.border-xs-purple,
+.border-xs-black,
+.border-sm-white,
+.border-sm-blue,
+.border-sm-red,
+.border-sm-yellow,
+.border-sm-orange,
+.border-sm-green,
+.border-sm-purple,
+.border-sm-black,
+.border-sm-white,
+.border-md-blue,
+.border-md-red,
+.border-md-yellow,
+.border-md-orange,
+.border-md-green,
+.border-md-purple,
+.border-md-black,
+.border-md-white,
+.border-lg-blue,
+.border-lg-red,
+.border-lg-yellow,
+.border-lg-orange,
+.border-lg-green,
+.border-lg-purple,
+.border-lg-black,
+.border-white,
+.border-blue,
+.border-red,
+.border-yellow,
+.border-orange,
+.border-green,
+.border-purple,
+.border-black,
+.border-white{
+	border-style: solid;
+}
+
+.border-xs-blue,
+.border-xs-red,
+.border-xs-yellow,
+.border-xs-orange,
+.border-xs-green,
+.border-xs-purple,
+.border-xs-black,
+.border-xs-white{
+	border-width: 1px;
+}
+.border-sm-blue,
+.border-sm-red,
+.border-sm-yellow,
+.border-sm-orange,
+.border-sm-green,
+.border-sm-purple,
+.border-sm-black,
+.border-sm-white{
+	border-width: 2px;
+}
+.border-md-blue,
+.border-blue,
+.border-md-red,
+.border-red,
+.border-md-yellow,
+.border-yellow,
+.border-md-orange,
+.border-orange,
+.border-md-green,
+.border-green,
+.border-md-purple,
+.border-purple,
+.border-md-black,
+.border-black,
+.border-md-white,
+.border-white{
+	border-width: 4px;
+}
+.border-lg-blue,
+.border-lg-red,
+.border-lg-yellow,
+.border-lg-orange,
+.border-lg-green,
+.border-lg-purple,
+.border-lg-black,
+.border-lg-white{
+	border-width: 7px;
+}
+.border-xs-blue,
+.border-sm-blue,
+.border-lg-blue,
+.border-blue{
+	border-color:$blue;
+}
+.border-xs-red,
+.border-sm-red,
+.border-lg-red,
+.border-red{
+	border-color:$red;
+}
+.border-xs-yellow,
+.border-sm-yellow,
+.border-lg-yellow,
+.border-yellow{
+	border-color:$yellow;
+}
+.border-xs-orange,
+.border-sm-orange,
+.border-lg-orange,
+.border-orange{
+	border-color:$orange;
+}
+.border-xs-green,
+.border-sm-green,
+.border-lg-green,
+.border-green{
+	border-color:$green;
+}
+.border-xs-purple,
+.border-sm-purple,
+.border-lg-purple,
+.border-purple{
+	border-color:$purple;
+}
+.border-xs-black,
+.border-sm-black,
+.border-lg-black,
+.border-black{
+	border-color:$black;
+}
+.border-xs-white,
+.border-sm-white,
+.border-lg-white,
+.border-white{
+	border-color:$white;
+}
+.border-bottom-yellow{
+  display: inline-block;
+  line-height: 0.6em;
+  position: relative;
+}
