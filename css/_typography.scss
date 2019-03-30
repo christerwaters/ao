@@ -27,28 +27,42 @@ h1.headline{
 	font-size:3rem;
 }
 
+footer .title,
 blockquote::before,
 h1,h2,h3,h4,h5{
   font-weight:700;
 }
+footer .title,
 h1{
   font-size:2.5rem;
 }
-footer .title,
 h2{
   font-size:2rem;
 }
 h3{
   font-size:1.8rem;
 }
-
-body,
 h4{
   font-size:1.6rem;
+}
+body{
+	font-size:1.5rem;
+}
+footer .title{
+	font-size:70% !important;
+}
+footer nav ul li{
+	font-size:60% !important;
 }
 @media only screen and (min-width: 48em) {
 	.intro{
 		font-size:1.6rem;
+	}
+	footer .title{
+		font-size:75% !important;
+	}
+	footer nav ul li{
+		font-size:65% !important;
 	}
 }
 
@@ -56,10 +70,22 @@ h4{
 	.intro{
 		font-size:1.8rem;
 	}
+	footer .title{
+		font-size:85% !important;
+	}
+	footer nav ul li{
+		font-size:75% !important;
+	}
 }
 
 @media only screen and (min-width: 75em) {
 	.intro{
 	  font-size:2rem;
+	}
+	footer .title{
+		font-size:100% !important;
+	}
+	footer nav ul li{
+		font-size:100% !important;
 	}
 }
