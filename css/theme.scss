@@ -181,6 +181,24 @@ header.swoosh:after{
 	margin-top:-64px;
 	background:#fff;
 }
+header .col-xs-1,
+header .col-xs-2,
+header .col-xs-3,
+header .col-xs-4,
+header .col-xs-5,
+header .col-xs-6,
+header .col-xs-7,
+header .col-xs-8,
+header .col-xs-9,
+header .col-xs-10,
+header .col-xs-11,
+header .col-xs-12{
+	padding:0px !important;
+}
+.col-xs-2.col-sm-5.logo{
+	padding-left:1rem;
+}
+
 .swoosh:after {
 	content: '';
 	display: block;
@@ -328,12 +346,12 @@ blockquote::before{
   bottom: 0;
   left: 0;
   right: 0;
-  margin-left:-.9rem;
-  margin-top:-.9rem;
+  margin-left:-.4rem;
+  margin-top:-.4rem;
     height: 100%; /* THIS NEEDS TO BE UPDATED TO A MORE PERMANENT SOLUTION*/
     width: 100%;
   opacity: 1;
-  border:2px #00f solid;
+  border:1px #00f solid;
   color:transparent;
   transition:all .2s;
 	font-size:1px;

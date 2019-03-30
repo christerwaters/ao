@@ -38,8 +38,7 @@ $m-100: 100%;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  padding-right: $cl;
-  padding-left: $cl;
+  padding: $cl;
 }
 .container-fluid,
 .container {
@@ -108,14 +107,7 @@ $m-100: 100%;
 .col-xs-offset-9,
 .col-xs-offset-10,
 .col-xs-offset-11,
-.col-xs-offset-12 {
-  box-sizing: border-box;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-}
+.col-xs-offset-12 {@include col(0.5rem);}
 
 .col-xs {
   -webkit-box-flex: 1;
@@ -219,14 +211,7 @@ $m-100: 100%;
   .col-sm-offset-9,
   .col-sm-offset-10,
   .col-sm-offset-11,
-  .col-sm-offset-12 {
-    box-sizing: border-box;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
+  .col-sm-offset-12 {@include col(0.5rem);}
 
   .col-sm {
     -webkit-box-flex: 1;
@@ -480,14 +465,7 @@ $m-100: 100%;
   .col-lg-offset-9,
   .col-lg-offset-10,
   .col-lg-offset-11,
-  .col-lg-offset-12 {
-    box-sizing: border-box;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
+  .col-lg-offset-12 {@include col(0.5rem);}
 
   .col-lg {
     -webkit-box-flex: 1;
