@@ -1,16 +1,4 @@
 
-$(document).ready(function(){
-  $(".portfolio-item").click(function(){
-    $(".overlay").addClass("overlay-active");
-    $(".overlay--x").addClass("overlay-active");
-    $("body").addClass("overlay-active");
-  });
-    $(".overlay-x").click(function(){
-      $(".overlay").removeClass("overlay-active");
-      $(".overlay--x").removeClass("overlay-active");
-      $("body").removeClass("overlay-active");
-    });
-});
 lastScroll = 0;
 $(window).on('scroll',function() {
     var scroll = $(window).scrollTop();

@@ -6,6 +6,8 @@
 @import  'typography';
 @import  'colors';
 @import  'grid';
+@import  'quickfix';
+
 
 .hide {
 	display:none;
@@ -494,12 +496,6 @@ blockquote span{
 }
 .border-radius{
 	border-radius: 7px;
-}
-.demo{
-	z-index:10;
-}
-.demo .container{
-	z-index:20;
 }
 #sketch-holder,
 #sketch-holder canvas {
