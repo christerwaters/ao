@@ -514,12 +514,13 @@ button.btn-lg{
     margin-top:-160px;
 }
 .benefits .icon{
+	color:$white;
 	background:$purple;
 	border-radius:5px;
-	height:25px;
-	width:25px;
+	height:35px;
+	width:35px;
 	text-align:center;
-	padding:5px;
+	padding:10px;
 }
 textarea.big,
 input.big,
