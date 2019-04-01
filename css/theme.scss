@@ -530,3 +530,9 @@ textarea.message.big,
 .contact .message{
 	height:200px;
 }
+#nointeract,
+#no-interact,
+.nointeract,
+.no-interact{
+  pointer-events: none;
+}
