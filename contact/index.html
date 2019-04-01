@@ -56,13 +56,15 @@
 		<div class="container center">
 			<div class="row">
 				<div class="col-xs-12">
-					<input type="text" class="e-mail border-purple" placeholder="coolname69@live.com"></input>
-					<div class="sm-spacer"></div>
-					<textarea class="message border-purple"></textarea>
-					<div class="sm-spacer"></div>
-					<a href="contact.html">
-						<button class="border-purple txt-purple btn-big"><span class="strikethrough">submit</span></button>
-					</a>
+					<form action="../../send.php" method="post">
+						<input type="text" class="e-mail border-purple" placeholder="coolname69@live.com" type="email" id="email" name="visitor_email" ></input>
+						<div class="sm-spacer"></div>
+						<textarea class="message border-purple" id="message" name="visitor_message"></textarea>
+						<div class="sm-spacer"></div>
+						<a href="contact.html">
+							<button class="border-purple txt-purple btn-big" type="submit"><span class="strikethrough">submit</span></button>
+						</a>
+					</form>
 				</div>
 			</div>
 			<div class="md-spacer"></div>
