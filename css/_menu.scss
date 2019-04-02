@@ -1,0 +1,60 @@
+header{
+  height:64px;
+  display:block;
+  width:100%;
+  position:fixed;
+  z-index:4000;
+}
+header .inner{
+  padding:20px 0px 20px 10px;
+}
+.menu-item {
+  padding: 20px 5px;
+}
+
+.menu{
+	text-align: right;
+}
+header.swoosh:after{
+	height:64px;
+	margin-top:-64px;
+	background:#fff;
+}
+header .col-xs-1,
+header .col-xs-2,
+header .col-xs-3,
+header .col-xs-4,
+header .col-xs-5,
+header .col-xs-6,
+header .col-xs-7,
+header .col-xs-8,
+header .col-xs-9,
+header .col-xs-10,
+header .col-xs-11,
+header .col-xs-12{
+	padding:0px !important;
+}
+
+.swoosh:after {
+	content: '';
+	display: block;
+	width: 0%;
+	float:right;
+	z-index:1900;
+	transition: all 0.5s cubic-bezier(.66, 0, .1, 1);
+}
+.s--up.swoosh:after,
+.swoosh:hover:after {
+	width: 100%;
+	float:left;
+}
+
+@media only screen and (min-width: $sm-scrn) {
+  .menu-item {
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: $md-scrn) {
+}
+@media only screen and (min-width: $lg-scrn) {
+}
