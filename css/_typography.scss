@@ -15,7 +15,7 @@ blockquote::before{
 }
 
 header{
-  font-size:18px;
+  font-size:20px;
 }
 
 nav.list{
@@ -74,10 +74,9 @@ footer nav ul li{
 	}
 }
 
-}
 @media only screen and (min-width: $md-scrn) {
 	header{
-  	font-size:22px;
+  	font-size:24px;
 	}
 	.intro{
 		font-size:1.8rem;
