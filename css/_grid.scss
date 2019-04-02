@@ -179,7 +179,7 @@ $m-100: 100%;
 .xs-hidden{
   display:none;
 }
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: $sm-scrn) {
   .container {
     width: 49rem;
   }
@@ -305,7 +305,7 @@ $m-100: 100%;
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: $md-scrn) {
   .container {
     width: 65rem;
   }
@@ -435,7 +435,7 @@ $m-100: 100%;
   }
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: $lg-scrn) {
   .container {
     width: 76rem;
   }
