@@ -1,6 +1,7 @@
 *{
 	transition:font-size 0.2s;
 }
+
 .btn-play button span,
 .btn-play button,
 button.btn-lg,
@@ -8,13 +9,18 @@ button.btn-big{
 	font-size:34px !important;
 	font-family: Averta;
 }
+
 blockquote::before{
   font-size:6rem;
 }
+
 header{
-  font-size:18px;}
-  nav.list{
-	font-size:1rem;}
+  font-size:18px;
+}
+
+nav.list{
+	font-size:1rem;
+}
 
 .support textarea,
 .support input,
@@ -26,7 +32,6 @@ header{
 h1.headline{
 	font-size:3rem;
 }
-
 footer .title,
 blockquote::before,
 h1,h2,h3,h4,h5{
@@ -55,8 +60,9 @@ footer nav ul li{
 	font-size:60% !important;
 }
 @media only screen and (min-width: $sm-scrn) {
-header{
-  font-size:24px;}
+	header{
+  	font-size:20px;
+	}
 	.intro{
 		font-size:1.6rem;
 	}
@@ -70,6 +76,9 @@ header{
 
 }
 @media only screen and (min-width: $md-scrn) {
+	header{
+  	font-size:22px;
+	}
 	.intro{
 		font-size:1.8rem;
 	}
@@ -81,6 +90,9 @@ header{
 	}
 }
 @media only screen and (min-width: $lg-scrn) {
+	header{
+  	font-size:24px;
+	}
 	.intro{
 	  font-size:2rem;
 	}
