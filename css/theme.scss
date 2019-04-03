@@ -459,9 +459,6 @@ button.btn-lg{
 .about i{
 	font-family: 'Cutive Mono', monospace;
 }
-.work .portfolio{
-    margin-top: -75px;
-}
 .benefits .icon{
 	color:$white;
 	background:$purple;
@@ -493,4 +490,23 @@ textarea.message.big,
 .nointeract,
 .no-interact{
   pointer-events: none !important;
+}
+
+.work .portfolio{
+    margin-top: -75px;
+}
+@media only screen and (min-width: $sm-scrn) {
+  .work .portfolio{
+      margin-top: -125px;
+  }
+}
+@media only screen and (min-width: $md-scrn) {
+  .work .portfolio{
+      margin-top: -145px;
+  }
+}
+@media only screen and (min-width: $lg-scrn) {
+  .work .portfolio{
+      margin-top: -165px;
+  }
 }

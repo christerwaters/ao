@@ -19,8 +19,6 @@
 .xs-spacer{
 	height:$spcr;
 }
-
-
 @media only screen and (min-width: $sm-scrn) {
   .xl-spacer{
   	height:$spcr*20.8;
@@ -53,6 +51,9 @@
   }
   .xs-spacer{
   	height:$spcr*1.6;
+  }
+  .work .portfolio{
+      margin-top: -145px;
   }
 }
 @media only screen and (min-width: $lg-scrn) {
