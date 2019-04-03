@@ -17,37 +17,6 @@ canvas#mathglobe {
   width:20vw;
   height:20vw;
 }
-.ticket{
-	margin-bottom:7px;
-}
-.ticket--status,
-.ticket--title,
-.ticket--open-date{
-	display:inline-block;
-	height:25px;
-    margin: 15px 15px 15px 15px;
-}
-.ticket--status{
-	font-family: 'Cutive Mono', monospace;
-	font-size:16px;
-	margin:0px 20px 0px 20px;
-}
-.ticket--status.open span,
-.ticket--status.closed span{
-	padding:2px 4px;
-	border:1px #000 solid;
-	border-radius:3px;
-}
-.ticket--status.open span{
-	background:#0F0;
-}
-.ticket--status.closed span{
-	background:#F00;
-	color:#fff;
-}
-.ticket--open-date{
-	float:right;
-}
 #particles-js{
   position: absolute;
   width: 100%;
@@ -72,73 +41,9 @@ body{
 footer nav {
 	margin-top:8px;
 }
-nav.index ul,
-nav.index ul li,
-nav.index ul li ul,
-nav.index ul li ul li{
-	margin-left:10px;
-}
-nav.index ul{
-
-}
-nav.index ul li{
-
-
-}
-nav.index ul li ul{
-
-}
-nav.index ul li ul li{
-
-}
-nav.list ul li{
-	padding-left:20px;
-    border-left: 2px solid #000;
-}
-nav.list ul li ul li{
-    border-left: 0px solid #000;
-}
 *::selection{
 	background:$blue;
 	color:$white;
-}
-nav.list ul li:after{
-	content: '';
-	position: absolute;
-	display: block;
-	width: 18px;
-	height: 2px;
-    margin-top: -2.5em;
-    margin-left: -20px;
-	background:#000;
-}
-nav.list ul li ul li:after{
-	content: '';
-	position: absolute;
-	display: block;
-	width: 25px;
-	height: 2px;
-    margin-top: -.5em;
-    margin-left: -30px;
-	background:#000;
-}
-nav.list:before{
-	position: absolute;
-	display: block;
-	content: 'list';
-	margin-left:-1.3em;
-	margin-top:-1.2em;
-	font-family:'Cutive Mono';
-}
-nav.list ul li ul li:before{
-	content: '';
-	position: absolute;
-	display: block;
-	width: 2px;
-	height: 1em;
-    margin-top: -.5em;
-    margin-left: -30px;
-	background:#000;
 }
 footer nav ul li {
     padding-top: 3px;
@@ -204,7 +109,7 @@ strong{
 		transform: scaleX(1);
 	}
 }
- .logo{
+.logo{
 	padding-left:13px;
 }
 .logo img{
@@ -222,8 +127,6 @@ html, body {
   height: 100%;
   width: 100%;
 }
-
-
 .vertical-center {
   margin-top: 50%;
 }
@@ -245,7 +148,6 @@ blockquote{
   line-height:1.6;
   position: relative;
 }
-
 blockquote.bq-blue{
   border-left:8px solid $blue;
 }
@@ -403,51 +305,8 @@ blockquote span{
 	padding-left:2rem;
 	padding-right:2rem;
 }
-.border-bottom-blue{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:$blue;
-}
-.border-bottom-red{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#FF0000;
-}
-.border-bottom-yellow{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#FFFF00;
-}
-.border-bottom-orange{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#FF6600;
-}
-.border-bottom-green{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#00FF00;
-}
-.border-bottom-purple{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#6600FF;
-}
-.border-bottom-black{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#000;
-}
-.border-bottom-white{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#fff;
-}
 .border-radius{
 	border-radius: 7px;
-}
-.btn-play{
-	margin:20px 20px 10px 20px;
 }
 button.btn-big,
 button.btn-lg{
@@ -458,9 +317,6 @@ button.btn-lg{
 }
 .about i{
 	font-family: 'Cutive Mono', monospace;
-}
-.work .portfolio{
-    margin-top:-160px;
 }
 .benefits .icon{
 	color:$white;
@@ -481,8 +337,7 @@ input.big,
 .contact button:hover,
 .contact textarea:focus,
 .contact input:focus{
-	background: #000;
-	color:#FFFF00;
+	color:$yellow;
 }
 textarea.message.big,
 .contact .message{
@@ -493,4 +348,23 @@ textarea.message.big,
 .nointeract,
 .no-interact{
   pointer-events: none !important;
+}
+
+.work .portfolio{
+    margin-top: -75px;
+}
+@media only screen and (min-width: $sm-scrn) {
+  .work .portfolio{
+      margin-top: -125px;
+  }
+}
+@media only screen and (min-width: $md-scrn) {
+  .work .portfolio{
+      margin-top: -145px;
+  }
+}
+@media only screen and (min-width: $lg-scrn) {
+  .work .portfolio{
+      margin-top: -165px;
+  }
 }
