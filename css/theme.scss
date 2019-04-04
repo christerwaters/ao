@@ -399,10 +399,6 @@ blockquote span{
 	display:block;
 	transition: top .2s, left .2s;
 }
-.people .row .col-xs-6{
-	padding-left:2rem;
-	padding-right:2rem;
-}
 .border-bottom-blue{
 	border-bottom-style: solid;
 	border-bottom-width: 4px;
@@ -462,17 +458,6 @@ button.btn-lg{
 .work .portfolio{
     margin-top:-160px;
 }
-.benefits .icon{
-	color:$white;
-	background:$purple;
-	border-radius:5px;
-  height: 22px;
-  width: 22px;
-  font-size: 22px;
-  text-align: center;
-  padding: 7px;
-	text-align:center;
-}
 textarea.big,
 input.big,
 .contact textarea,
@@ -493,14 +478,51 @@ input.big,
   pointer-events: none !important;
 }
 
+.benefits .icon{
+	color:$white;
+	background:$purple;
+	border-radius:5px;
+  height: 22px;
+  width: 22px;
+  font-size: 22px;
+  text-align: center;
+  padding: 7px;
+	text-align:center;
+}
+.people .row .col-xs-6{
+	padding-left:1rem;
+	padding-right:1rem;
+}
 @media only screen and (min-width: $sm-scrn) {
 	.benefits .icon{
 		height:35px;
 		width:35px;
 		padding:14px;
 	}
+	.people .row .col-xs-6{
+		padding-left:1.3333rem;
+		padding-right:1.3333rem;
+	}
 }
 @media only screen and (min-width: $md-scrn) {
+	.benefits .icon{
+		height:35px;
+		width:35px;
+		padding:14px;
+	}
+	.people .row .col-xs-6{
+		padding-left:1.6666rem;
+		padding-right:1.6666rem;
+	}
 }
 @media only screen and (min-width: $lg-scrn) {
+	.benefits .icon{
+		height:35px;
+		width:35px;
+		padding:14px;
+	}
+	.people .row .col-xs-6{
+		padding-left:2rem;
+		padding-right:2rem;
+	}
 }
