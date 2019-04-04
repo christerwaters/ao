@@ -1,22 +1,22 @@
 .overflow-rm-xs {
-  height:$spcr*2;
-  max-height:$spcr*2;
+  height:$spcr*2*2;
+  max-height:$spcr*2*2;
 }
 .overflow-rm-sm {
-  height:$spcr*4;
-  max-height:$spcr*4;
+  height:$spcr*4*2;
+  max-height:$spcr*4*2;
 }
 .overflow-rm-md {
-  height:$spcr*8;
-  max-height:$spcr*8;
+  height:$spcr*8*2;
+  max-height:$spcr*8*2;
 }
 .overflow-rm-lg {
-  height:$spcr*16;
-  max-height:$spcr*16;
+  height:$spcr*16*2;
+  max-height:$spcr*16*2;
 }
 .overflow-rm-xl {
-  height:$spcr*32;
-  max-height:$spcr*32;
+  height:$spcr*32*2;
+  max-height:$spcr*32*2;
 }
 .overflow-rm-xs,
 .overflow-rm-sm,
