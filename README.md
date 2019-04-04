@@ -53,7 +53,8 @@ Green and orange
 
 All linked and included documents should have relative links (ex. has a tailing ../
 
-#### [DEMO](https://dev.absoluttoslo.com "Demo Site")
+#### [DEV SITE](http://dev.absoluttoslo.com "Demo Site")
+#### [PROD SITE](https://dev.absoluttoslo.com "Demo Site")
 
 # Libraries used to build this site
 * [jquery.js](http://jquery.com/ "Jquery")
