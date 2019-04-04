@@ -1,26 +1,7 @@
 
-lastScroll = 0;
-$(window).on('scroll',function() {
-    var scroll = $(window).scrollTop();
-    if(lastScroll - scroll > 0) {
-        $("header").addClass("s--up");
-    } else {
-        $("header").removeClass("s--up");
-    }
-    lastScroll = scroll;
-
-    $(window).scroll(function () {
-        var top_offset = $(window).scrollTop();
-        if (top_offset == 0) {
-            $('header').removeClass('s--up');
-        }
-    })
-
-});
-
 var $el, $ps, $up, totalHeight;
 
-$(".sidebar-box .button").click(function() {
+$(".overflow-rm-30 .button").click(function() {
 
   totalHeight = 0
 
@@ -49,5 +30,24 @@ $(".sidebar-box .button").click(function() {
 
   // prevent jump-down
   return false;
+
+});
+
+lastScroll = 0;
+$(window).on('scroll',function() {
+    var scroll = $(window).scrollTop();
+    if(lastScroll - scroll > 0) {
+        $("header").addClass("s--up");
+    } else {
+        $("header").removeClass("s--up");
+    }
+    lastScroll = scroll;
+
+    $(window).scroll(function () {
+        var top_offset = $(window).scrollTop();
+        if (top_offset == 0) {
+            $('header').removeClass('s--up');
+        }
+    })
 
 });
