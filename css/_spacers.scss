@@ -7,6 +7,9 @@
 .xl-spacer{
 	height:$spcr*16;
 }
+
+textarea.message.big,
+.contact .message,
 .lg-spacer{
 	height:$spcr*8;
 }
@@ -23,6 +26,8 @@
   .xl-spacer{
   	height:$spcr*20.8;
   }
+  textarea.message.big,
+  .contact .message,
   .lg-spacer{
   	height:$spcr*10.4;
   }
@@ -40,6 +45,8 @@
   .xl-spacer{
   	height:$spcr*25.6;
   }
+  textarea.message.big,
+  .contact .message,
   .lg-spacer{
   	height:$spcr*12.8;
   }
@@ -60,6 +67,8 @@
   .xl-spacer{
   	height:$spcr*32;
   }
+  textarea.message.big,
+  .contact .message,
   .lg-spacer{
   	height:$spcr*16;
   }
