@@ -2,11 +2,6 @@
 
 Absolutt Oslo is a creative agency based out of Oslo, Norway. It is built with simplicity in mind, using primary and secondary colors only. Considering these limitations, we had to be very creative in how we put together the website. 
 
-
-# Colors
-
-All linked and included documents should have relative links (ex. has a tailing ../
-
 # Colors
 
 ![COLORS](https://github.com/christerwaters/ao-frontend/blob/master/img/colors.jpg "Logo Title Text 1")
@@ -53,14 +48,15 @@ Yellow and orange
 Green and orange
 ![Green and orange](https://github.com/christerwaters/ao-frontend/blob/master/img/g-o.jpg "Green and orange gradient")
 
-#### [DEMO](http://34.76.50.241/ao-frontend/ "Demo Site")
+
+# Links
+
+All linked and included documents should have relative links (ex. has a tailing ../
+
+#### [DEMO](https://dev.absoluttoslo.com "Demo Site")
 
 # Libraries used to build this site
 * [jquery.js](http://jquery.com/ "Jquery")
-* [p5.js](https://p5js.org/download/ "P5")
-* [p5.dom.js](https://p5js.org/download/ "P5 DOM")
-* [p5.sound.js](https://p5js.org/download/ "P5 Sound")
-* [p5.sound.js](https://p5js.org/download/ "P5 Sound")
 * [Flexbox Grid](http://flexboxgrid.com/ "Flexbox Grid")
 * [Particles.js](https://github.com/VincentGarreau/particles.js/ "Particles JS")
 * [reset.css](https://meyerweb.com/eric/tools/css/reset/ "CSS Reset")
