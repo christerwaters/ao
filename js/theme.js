@@ -18,11 +18,11 @@ $(".overflow-rm-30 .button").click(function() {
   $up
     .css({
       // Set height to prevent instant jumpdown when max height is removed
-      "height": $up.height(),
-      "max-height": 9999
+      "height": "auto",
+      "max-height": "100%"
     })
     .animate({
-      "height": totalHeight
+      "height": "auto"
     });
 
   // fade out read-more
