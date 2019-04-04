@@ -1,7 +1,7 @@
 
 var $el, $ps, $up, totalHeight;
 
-$(".overflow-rm-30 .button").click(function() {
+$(".overflow-rm-xs .button, .overflow-rm-sm .button, .overflow-rm-md .button, .overflow-rm-lg .button, .overflow-rm-xl .button ").click(function() {
 
   totalHeight = 0
 
