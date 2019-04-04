@@ -466,10 +466,12 @@ button.btn-lg{
 	color:$white;
 	background:$purple;
 	border-radius:5px;
-	height:35px;
-	width:35px;
+  height: 22px;
+  width: 22px;
+  font-size: 22px;
+  text-align: center;
+  padding: 7px;
 	text-align:center;
-	padding:14px 10px 6px 10px;
 }
 textarea.big,
 input.big,
@@ -493,4 +495,16 @@ textarea.message.big,
 .nointeract,
 .no-interact{
   pointer-events: none !important;
+}
+
+@media only screen and (min-width: $sm-scrn) {
+	.benefits .icon{
+		height:35px;
+		width:35px;
+		padding:14px;
+	}
+}
+@media only screen and (min-width: $md-scrn) {
+}
+@media only screen and (min-width: $lg-scrn) {
 }
