@@ -6,10 +6,24 @@ header{
   z-index:4000;
 }
 header .inner{
-  padding:20px 0px 20px 10px;
+  padding:20px 0px;
+}
+ .logo{
+	padding-left:13px;
+  margin: 0px -2rem -4px 1rem;
+}
+.logo img{
+	height:28px;
+}
+.logo .txt{
+	font-weight:500;
+  margin-left:13px;
 }
 .menu-item {
   padding: 20px 5px;
+}
+.menu-item.contact {
+  padding: 20px 0px 20px 5px;
 }
 
 .menu{
@@ -52,6 +66,9 @@ header .col-xs-12{
 @media only screen and (min-width: $sm-scrn) {
   .menu-item {
     padding: 20px;
+  }
+  .menu-item.contact {
+    padding: 20px 0px 20px 20px;
   }
 }
 @media only screen and (min-width: $md-scrn) {
