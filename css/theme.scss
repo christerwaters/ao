@@ -527,6 +527,7 @@ body.work .intro2{
   -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+	overflow:hidden;
 }
 
 
@@ -537,6 +538,7 @@ body.contact .about{
   -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+	overflow:hidden;
 }
 body.work .contact,
 body.work .about{
@@ -545,6 +547,7 @@ body.work .about{
   -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+	overflow:hidden;
 }
 body.about .contact,
 body.about .work{
@@ -553,6 +556,7 @@ body.about .work{
   -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+	overflow:hidden;
 }
 body.coming .contact,
 body.coming .work,
@@ -562,4 +566,5 @@ body.coming .about{
   -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+	overflow:hidden;
 }
