@@ -523,9 +523,9 @@ body .about,
 body .contact{
 	max-height:300%;
 	opacity:1;
-  -webkit-transition: opacity 65ms ease-out 0s, max-height 130ms ease-in-out 0s;
-  -o-transition: opacity 65ms ease-out 0s, max-height 130ms ease-in-out 0s;
-  transition: opacity 65ms ease-out 0s, max-height 130ms ease-in-out 0s;
+  -webkit-transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
+  -o-transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
+  transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
 }
 body.contact .intro,
 body.contact .intro2,
@@ -544,8 +544,8 @@ body.coming .work,
 body.coming .about{
 	max-height:0px;
 	opacity:0;
-  -webkit-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  -o-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
+  -webkit-transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
+  -o-transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
+  transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
 	overflow:hidden;
 }
