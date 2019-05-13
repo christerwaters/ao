@@ -423,12 +423,15 @@ input.big,
 	width:100%;
 	padding:10px 20px;
 }
-a:hover,
 .contact button:hover,
 .contact textarea:focus,
 .contact input:focus{
 	background: #000;
 	color:#FFFF00;
+}
+
+a:hover{
+	cursor:pointer;
 }
 #nointeract,
 #no-interact,
