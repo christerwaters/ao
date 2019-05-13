@@ -23,19 +23,21 @@
 		<meta name="description" content="Absolutt Oslo is a creator owned and operated creative agency. We develop websites, create music videos, host events and a whole lot more.">
 		<link rel="stylesheet" href="../fonts/import-all.css">
 		<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" href="../css/theme.css">
 	</head>
 	<body class="home">
 		<header class="swoosh">
 			<div class="row inner">
 				<div class="col-xs-2 col-sm-5 logo">
-					<a href="../"><img src="../img/logo.png" alt="Absolutt Oslo logo, a triangle intersecting a circle creating a sort of sideways A shape and an O shape" title="Absolutt Oslo Logo"><span class="txt xs-hidden">Absolutt Oslo</span></a>
+					<a id="home"><img src="../img/logo.png" alt="Absolutt Oslo logo, a triangle intersecting a circle creating a sort of sideways A shape and an O shape" title="Absolutt Oslo Logo"><span class="txt xs-hidden">Absolutt Oslo</span></a>
 				</div>
 				<div class="col-xs-10 col-sm-7 menu">
 					<a class="menu-item hidden " id="work">
 						<span class="strikethrough">Work</span>
 					</a>
-					<a class="menu-item" href="../about/" id="about">
+					<a class="menu-item" id="about">
 						<span class="strikethrough">About</span>
 					</a>
 					<a class="menu-item contact"  id="contact">
@@ -51,7 +53,7 @@
 						Creative Agency from Oslo
 					</h1>
 					<div class="md-spacer"></div>
-					<a href="../contact/">
+					<a id="contact">
 						<button class="border-black txt-black btn-big bg-red bg-hover-green">contact us</button>
 					</a>
 					<div class="lg-spacer"></div>
@@ -383,6 +385,9 @@
 			<div class="sm-spacer"></div>
 		</div>
 		<script src="../js/lib/jq.js"></script>
+		<script src="../../js/about.js"></script>
+		<script>var randomize = $(".person");</script>
+		<script src="../../js/rndm.js"></script>
 		<script src="../js/theme.js"></script>
 	</body>
 </html>
