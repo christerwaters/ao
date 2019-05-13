@@ -38,6 +38,10 @@ canvas#mathglobe {
 }
 body{
   font-family: 'averta', sans-serif;
+	background:$white;
+}
+body.work{
+	background:$purple;
 }
 footer nav {
 	margin-top:8px;
