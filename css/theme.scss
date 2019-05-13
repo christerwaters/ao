@@ -38,10 +38,13 @@ canvas#mathglobe {
 }
 body{
   font-family: 'averta', sans-serif;
-	background:$white;
+	background-color:$white;
 }
 body.work{
-	background:$purple !important;
+	background-color:$purple !important;
+  -webkit-transition: background-color 260ms ease-out 0s;
+  -o-transition: background-color 260ms ease-out 0s;
+  transition: background-color 260ms ease-out 0s;
 }
 footer nav {
 	margin-top:8px;
@@ -456,9 +459,9 @@ body .about,
 body .contact{
 	max-height:300%;
 	opacity:1;
-  -webkit-transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
-  -o-transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
-  transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
+  -webkit-transition: opacity 390ms ease-out 0s, max-height 260ms ease-in-out 0s;
+  -o-transition: opacity 390ms ease-out 0s, max-height 260ms ease-in-out 0s;
+  transition: opacity 390ms ease-out 0s, max-height 260ms ease-in-out 0s;
 }
 body.contact .intro,
 body.contact .intro2,
