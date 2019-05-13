@@ -59,23 +59,31 @@ $(document).ready(function() {
     $(document.body).removeClass('work');
     $(document.body).removeClass('contact');
     $(document.body).addClass('about');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+    return false;
   });
   $(document).on('click', '#work', function() {
     $(document.body).removeClass('home');
     $(document.body).addClass('work');
     $(document.body).removeClass('contact');
     $(document.body).removeClass('about');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+    return false;
   });
   $(document).on('click', '#contact', function() {
     $(document.body).removeClass('home');
     $(document.body).removeClass('work');
     $(document.body).addClass('contact');
     $(document.body).removeClass('about');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+    return false;
   });
   $(document).on('click', '#home', function() {
     $(document.body).addClass('home');
     $(document.body).removeClass('work');
     $(document.body).removeClass('contact');
     $(document.body).removeClass('about');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+    return false; 
   });
 });
