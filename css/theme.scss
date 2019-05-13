@@ -528,48 +528,17 @@ body.contact .intro2,
 body.about .intro,
 body.about .intro2,
 body.work .intro,
-body.work .intro2{
-	max-height:0px;
-	opacity:0;
-
-  -webkit-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  -o-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-	overflow:hidden;
-}
-
-
+body.work .intro2,
 body.contact .work,
-body.contact .about{
-	height:0px;
-	opacity:0;
-  -webkit-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  -o-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-	overflow:hidden;
-}
+body.contact .about,
 body.work .contact,
-body.work .about{
-	height:0px;
-	opacity:0;
-  -webkit-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  -o-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-	overflow:hidden;
-}
+body.work .about,
 body.about .contact,
-body.about .work{
-	height:0px;
-	opacity:0;
-  -webkit-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  -o-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
-	overflow:hidden;
-}
+body.about .work,
 body.coming .contact,
 body.coming .work,
-body.coming .about{
-	height:0px;
+body.coming .about,{
+	max-height:0px;
 	opacity:0;
   -webkit-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
   -o-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
