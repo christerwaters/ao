@@ -554,3 +554,12 @@ body.about .work{
   -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
   transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
 }
+body.coming .contact,
+body.coming .work,
+body.coming .about{
+	height:0px;
+	opacity:0;
+  -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+}
