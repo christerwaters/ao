@@ -522,6 +522,10 @@ body .work,
 body .about,
 body .contact{
 	max-height:9000%;
+	opacity:1;
+  -webkit-transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
+  -o-transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
+  transition: opacity 260ms ease-out 0s, max-height 130ms ease-in-out 0s;
 }
 body.contact .intro,
 body.contact .intro2,
@@ -537,7 +541,7 @@ body.about .contact,
 body.about .work,
 body.coming .contact,
 body.coming .work,
-body.coming .about,{
+body.coming .about{
 	max-height:0px;
 	opacity:0;
   -webkit-transition: opacity 130ms ease-out 0s, max-height 260ms ease-in-out 0s;
