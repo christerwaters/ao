@@ -516,3 +516,41 @@ input.big,
 		padding-right:2rem;
 	}
 }
+body.contact .intro,
+body.contact .intro2,
+body.about .intro,
+body.about .intro2,
+body.work .intro,
+body.work .intro2{
+	height:0px;
+	opacity:0;
+  -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+}
+
+
+body.contact .work,
+body.contact .about{
+	height:0px;
+	opacity:0;
+  -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+}
+body.work .contact,
+body.work .about{
+	height:0px;
+	opacity:0;
+  -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+}
+body.about .contact,
+body.about .work{
+	height:0px;
+	opacity:0;
+  -webkit-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  -o-transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+  transition: opacity 130ms ease-out 0s, height 260ms ease-in-out 0s;
+}
