@@ -1,6 +1,3 @@
-.work .portfolio {
-  margin-top: -90px;
-}
 .lg-spacer,
 .md-spacer,
 .sm-spacer,
@@ -26,9 +23,6 @@ textarea.message.big,
 	height:$spcr;
 }
 @media only screen and (min-width: $sm-scrn) {
-  .work .portfolio {
-    margin-top: -120px;
-  }
   .xl-spacer{
   	height:$spcr*20.8;
   }
@@ -48,9 +42,6 @@ textarea.message.big,
   }
 }
 @media only screen and (min-width: $md-scrn) {
-  .work .portfolio {
-    margin-top: -140px;
-  }
   .xl-spacer{
   	height:$spcr*25.6;
   }
@@ -73,9 +64,6 @@ textarea.message.big,
   }
 }
 @media only screen and (min-width: $lg-scrn) {
-  .work .portfolio {
-    margin-top: -160px;
-  }
   .xl-spacer{
   	height:$spcr*32;
   }
