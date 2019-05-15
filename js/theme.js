@@ -98,7 +98,8 @@ $(document).ready(function() {
        return null;
     }
     else{
-       return results[1] || 0;
+       $(document.body).addClass(results);
+       console.log(results);
     }
   };
 });
