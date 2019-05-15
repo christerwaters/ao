@@ -59,6 +59,9 @@ $(document).ready(function() {
     $(document.body).removeClass('work');
     $(document.body).removeClass('contact');
     $(document.body).addClass('about');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#work', function() {
@@ -66,6 +69,9 @@ $(document).ready(function() {
     $(document.body).addClass('work');
     $(document.body).removeClass('contact');
     $(document.body).removeClass('about');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#contact', function() {
@@ -73,6 +79,9 @@ $(document).ready(function() {
     $(document.body).removeClass('work');
     $(document.body).addClass('contact');
     $(document.body).removeClass('about');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#home', function() {
@@ -80,6 +89,39 @@ $(document).ready(function() {
     $(document.body).removeClass('work');
     $(document.body).removeClass('contact');
     $(document.body).removeClass('about');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+  });
+  $(document).on('click', '#marketing', function() {
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('about');
+    $(document.body).addClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+  });
+  $(document).on('click', '#web', function() {
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('about');
+    $(document.body).removeClass('marketing');
+    $(document.body).addClass('web');
+    $(document.body).removeClass('coming');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+  });
+  $(document).on('click', '#coming', function() {
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('about');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).addClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
 });
