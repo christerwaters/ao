@@ -452,12 +452,13 @@ a:hover{
 		padding-right:2rem;
 	}
 }
+body.coming .coming,
 body .intro,
 body .intro2,
 body .work,
 body .about,
 body .contact{
-	max-height:300%;
+	max-height:1000%;
 	opacity:1;
   -webkit-transition: opacity 390ms ease-out 0s, max-height 260ms ease-in-out 0s;
   -o-transition: opacity 390ms ease-out 0s, max-height 260ms ease-in-out 0s;
@@ -477,7 +478,9 @@ body.about .contact,
 body.about .work,
 body.coming .contact,
 body.coming .work,
-body.coming .about{
+body.coming .about,
+body .web,
+body .coming{
 	max-height:0px;
 	opacity:0;
   -webkit-transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
