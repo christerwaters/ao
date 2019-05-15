@@ -54,6 +54,21 @@ $(window).on('scroll',function() {
 
 
 $(document).ready(function() {
+  function GetURLParameter(sParam){
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++)
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam)
+        {
+            return sParameterName[1];
+        }
+    }
+  }​
+  var page = GetURLParameter('page');
+  $(document.body).addClass(page);
+
   $(document).on('click', '#about', function() {
     $(document.body).className = '';
     $(document.body).addClass('about');
@@ -89,20 +104,4 @@ $(document).ready(function() {
     $(document.body).addClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
-});
-
-$(document).ready(function() {
-  $.urlParam = function(name){
-    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-    console.log(results);
-    if (results==null){
-       return null;
-       console.log(results);
-    }
-    else{
-       var clss = results[1] || 0;
-       $(document.body).addClass(clss);
-       console.log(results);
-    }
-  };
 });
