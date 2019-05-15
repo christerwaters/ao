@@ -55,72 +55,37 @@ $(window).on('scroll',function() {
 
 $(document).ready(function() {
   $(document).on('click', '#about', function() {
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
+    $(document.body).className = '';
     $(document.body).addClass('about');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#work', function() {
-    $(document.body).removeClass('home');
+    $(document.body).className = '';
     $(document.body).addClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#contact', function() {
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('work');
+    $(document.body).className = '';
     $(document.body).addClass('contact');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#home', function() {
+    $(document.body).className = '';
     $(document.body).addClass('home');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#marketing', function() {
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('about');
+    $(document.body).className = '';
     $(document.body).addClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#web', function() {
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('marketing');
+    $(document.body).className = '';
     $(document.body).addClass('web');
-    $(document.body).removeClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#coming', function() {
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
+    $(document.body).className = '';
     $(document.body).addClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
@@ -136,19 +101,11 @@ $(document).ready(function() {
          return results[1] || 0;
       }
   }
-  $.urlParam('page');
-
-  $(document.body).removeClass('home');
-  $(document.body).removeClass('work');
-  $(document.body).removeClass('contact');
-  $(document.body).removeClass('about');
-  $(document.body).removeClass('marketing');
-  $(document.body).removeClass('web');
-  $(document.body).removeClass('coming');
-  $(document.body).removeClass($.urlParam('page'));
-  window.history.pushState("", "", '/');
-
-
   console.log($.urlParam('page'));
+
+  $(document.body).className = '';
+  $(document.body).addClass($.urlParam('page'));
+
+  window.history.pushState("", "", '/');
 
 });
