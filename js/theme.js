@@ -92,20 +92,17 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $.urlParam = function(name){
-      var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+  $.urlParam = function(page){
+      var results = new RegExp('[\?&]' + page + '=([^&#]*)').exec(window.location.href);
       if (results==null){
          return null;
       }
       else{
-         return results[1] || 0;
+         $(document.body).className = '';
+         $(document.body).addClass(results[1]);
       }
   }
-  console.log($.urlParam('page'));
 
-  $(document.body).className = '';
-  $(document.body).addClass($.urlParam('page'));
 
-  window.history.pushState("", "", '/');
 
 });
