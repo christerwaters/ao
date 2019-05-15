@@ -126,18 +126,21 @@ $(document).ready(function() {
   });
 });
 
-$.urlParam = function(name){
-    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-    if (results==null){
-       return null;
-    }
-    else{
-       return results[1] || 0;
-    }
-}
+$(document).ready(function() {
+  $.urlParam = function(name){
+      var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+      if (results==null){
+         return null;
+      }
+      else{
+         return results[1] || 0;
+      }
+  }
 
-$.urlParam('param1'); // name
-$.urlParam('id');        // 6
-$.urlParam('param2');   // null
+  $.urlParam('param1'); // name
+  $.urlParam('id');        // 6
+  $.urlParam('param2');   // null
 
-console.log($.urlParam('id'));  
+  console.log($.urlParam('id'));
+
+});
