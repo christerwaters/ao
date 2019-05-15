@@ -100,5 +100,5 @@ $(document).ready(function() {
     else{
        return results[1] || 0;
     }
-  });
+  };
 });
