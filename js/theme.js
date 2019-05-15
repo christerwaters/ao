@@ -136,11 +136,16 @@ $(document).ready(function() {
          return results[1] || 0;
       }
   }
+  $.urlParam('page');        // 6
 
-  $.urlParam('param1'); // name
-  $.urlParam('id');        // 6
-  $.urlParam('param2');   // null
-
-  console.log($.urlParam('id'));
+  $(document.body).removeClass('home');
+  $(document.body).removeClass('work');
+  $(document.body).removeClass('contact');
+  $(document.body).removeClass('about');
+  $(document.body).removeClass('marketing');
+  $(document.body).removeClass('web');
+  $(document.body).removeClass('coming');
+  $(document.body).removeClass($.urlParam('page');
+  window.history.pushState("", "", '/');
 
 });
