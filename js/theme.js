@@ -94,13 +94,15 @@ $(document).ready(function() {
 $(document).ready(function() {
   $.urlParam = function(name){
     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    console.log(results);
     if (results==null){
        return null;
+       console.log(results);
     }
     else{
        var clss = results[1] || 0;
        $(document.body).addClass(clss);
-       console.log(clss);
+       console.log(results);
     }
   };
 });
