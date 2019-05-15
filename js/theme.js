@@ -136,7 +136,7 @@ $(document).ready(function() {
          return results[1] || 0;
       }
   }
-  $.urlParam('page');        // 6
+  $.urlParam('page');
 
   $(document.body).removeClass('home');
   $(document.body).removeClass('work');
@@ -145,7 +145,10 @@ $(document).ready(function() {
   $(document.body).removeClass('marketing');
   $(document.body).removeClass('web');
   $(document.body).removeClass('coming');
-  $(document.body).removeClass($.urlParam('page');
+  $(document.body).removeClass($.urlParam('page'));
   window.history.pushState("", "", '/');
+
+
+  console.log($.urlParam('page'));
 
 });
