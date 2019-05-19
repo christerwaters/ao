@@ -466,21 +466,28 @@ body .contact{
 }
 body.contact .intro,
 body.contact .intro2,
-body.about .intro,
-body.about .intro2,
-body.work .intro,
-body.work .intro2,
 body.contact .work,
 body.contact .about,
-body.work .contact,
-body.work .about,
+body.contact .web,
+body.contact .marketing,
+body.contact .coming,
+body.about .intro,
+body.about .intro2,
 body.about .contact,
 body.about .work,
+body.about .web,
+body.about .marketing,
+body.about .coming,
+body.work .intro,
+body.work .intro2,
+body.work .contact,
+body.work .about,
+body.work .web,
+body.work .marketing,
+body.work .coming,
 body.coming .contact,
 body.coming .work,
-body.coming .about,
-body .web,
-body .coming{
+body.coming .about{
 	max-height:0px;
 	opacity:0;
   -webkit-transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
