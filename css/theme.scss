@@ -487,7 +487,10 @@ body.work .marketing,
 body.work .coming,
 body.coming .contact,
 body.coming .work,
-body.coming .about{
+body.coming .about
+body .web,
+body .marketing,
+body .coming{
 	max-height:0px;
 	opacity:0;
   -webkit-transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
