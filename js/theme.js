@@ -52,55 +52,48 @@ $(window).on('scroll',function() {
 
 });
 
-function GetURLParameter(sParam){
-  var sPageURL = window.location.search.substring(1);
-  var sURLVariables = sPageURL.split('&');
-  for (var i = 0; i < sURLVariables.length; i++)
-  {
-      var sParameterName = sURLVariables[i].split('=');
-      if (sParameterName[0] == sParam)
-      {
-          return sParameterName[1];
-      }
-  }
-}​
+//function GetURLParameter(sParam){
+//  var sPageURL = window.location.search.substring(1);
+//  var sURLVariables = sPageURL.split('&');
+//  for (var i = 0; i < sURLVariables.length; i++)
+//  {
+//      var sParameterName = sURLVariables[i].split('=');
+//      if (sParameterName[0] == sParam)
+//      {
+//          return sParameterName[1];
+//      }
+//  }
+//}​
 $(document).ready(function() {
 
   //var page = GetURLParameter('page');
   //$(document.body).addClass(page);
 
   $(document).on('click', '#about', function() {
-    $(document.body).removeClass('');
     $(document.body).addClass('about');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#work', function() {
-    $(document.body).removeClass('');
     $(document.body).addClass('work');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#contact', function() {
-    $(document.body).removeClass('');
     $(document.body).addClass('contact');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#home', function() {
-    $(document.body).removeClass('');
     $(document.body).addClass('home');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#marketing', function() {
-    $(document.body).removeClass('');
     $(document.body).addClass('marketing');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#web', function() {
-    $(document.body).removeClass('');
     $(document.body).addClass('web');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#coming', function() {
-    $(document.body).removeClass('');
     $(document.body).addClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
