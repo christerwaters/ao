@@ -70,37 +70,37 @@ $(document).ready(function() {
   //$(document.body).addClass(page);
 
   $(document).on('click', '#about', function() {
-    $(document.body).className = '';
+    $(document.body).removeClass();
     $(document.body).addClass('about');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#work', function() {
-    $(document.body).className = '';
+    $(document.body).removeClass();
     $(document.body).addClass('work');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#contact', function() {
-    $(document.body).className = '';
+    $(document.body).removeClass();
     $(document.body).addClass('contact');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#home', function() {
-    $(document.body).className = '';
+    $(document.body).removeClass();
     $(document.body).addClass('home');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#marketing', function() {
-    $(document.body).className = '';
+    $(document.body).removeClass();
     $(document.body).addClass('marketing');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#web', function() {
-    $(document.body).className = '';
+    $(document.body).removeClass();
     $(document.body).addClass('web');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
   $(document).on('click', '#coming', function() {
-    $(document.body).className = '';
+    $(document.body).removeClass();
     $(document.body).addClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
   });
