@@ -66,8 +66,8 @@ function GetURLParameter(sParam){
 }​
 $(document).ready(function() {
 
-  var page = GetURLParameter('page');
-  $(document.body).addClass(page);
+  //var page = GetURLParameter('page');
+  //$(document.body).addClass(page);
 
   $(document).on('click', '#about', function() {
     $(document.body).removeClass('');
