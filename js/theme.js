@@ -70,38 +70,73 @@ $(document).ready(function() {
   //$(document.body).addClass(page);
 
   $(document).on('click', '#about', function() {
-    $(document.body).removeClass();
     $(document.body).addClass('about');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
   });
   $(document).on('click', '#work', function() {
-    $(document.body).removeClass();
     $(document.body).addClass('work');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
+    $(document.body).removeClass('about');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
   });
   $(document).on('click', '#contact', function() {
-    $(document.body).removeClass();
     $(document.body).addClass('contact');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
+    $(document.body).removeClass('about');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
   });
   $(document).on('click', '#home', function() {
-    $(document.body).removeClass();
     $(document.body).addClass('home');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
+    $(document.body).removeClass('about');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
   });
   $(document).on('click', '#marketing', function() {
-    $(document.body).removeClass();
     $(document.body).addClass('marketing');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
+    $(document.body).removeClass('about');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('web');
+    $(document.body).removeClass('coming');
   });
   $(document).on('click', '#web', function() {
-    $(document.body).removeClass();
     $(document.body).addClass('web');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
+    $(document.body).removeClass('about');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('coming');
   });
   $(document).on('click', '#coming', function() {
-    $(document.body).removeClass();
     $(document.body).addClass('coming');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
+    $(document.body).removeClass('about');
+    $(document.body).removeClass('work');
+    $(document.body).removeClass('contact');
+    $(document.body).removeClass('home');
+    $(document.body).removeClass('marketing');
+    $(document.body).removeClass('web');
   });
 });
