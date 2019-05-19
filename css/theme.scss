@@ -298,52 +298,6 @@ blockquote span{
 	display:block;
 	transition: top .2s, left .2s;
 }
-.border-bottom-blue{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:$blue;
-}
-.border-bottom-red{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#FF0000;
-}
-.border-bottom-yellow{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#FFFF00;
-}
-.border-bottom-orange{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#FF6600;
-}
-.border-bottom-green{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#00FF00;
-}
-.border-bottom-purple{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#6600FF;
-}
-.border-bottom-black{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#000;
-}
-.border-bottom-white{
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-bottom-color:#fff;
-}
-.border-radius{
-	border-radius: 7px;
-}
-.btn-play{
-	margin:20px 20px 10px 20px;
-}
 button.btn-big,
 button.btn-lg{
 	padding:4px 20px 10px 20px;
@@ -488,9 +442,9 @@ body.work .coming,
 body.coming .contact,
 body.coming .work,
 body.coming .about
-body .web,
-body .marketing,
-body .coming{
+body.home .web,
+body.home .marketing,
+body.home .coming{
 	max-height:0px;
 	opacity:0;
   -webkit-transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
