@@ -51,27 +51,32 @@ $(window).on('scroll',function() {
     })
 
 });
-
+// on forward set url to what is behind "?page="
 $(document).ready(function() {
-  function GetURLParameter(sParam){
-    var sPageURL = window.location.search.substring(1);
-    var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++)
-    {
-        var sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] == sParam)
-        {
-            return sParameterName[1];
-        }
+  $.extend({
+    getUrlVars: function(){
+      var vars = [], hash;
+      var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+      for(var i = 0; i < hashes.length; i++)
+      {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+      }
+      return vars;
+    },
+    getUrlVar: function(name){
+      return $.getUrlVars()[name];
     }
-  }​
-  var pageclass = GetURLParameter('page');
-  $(document.body).addClass(pageclass);
+  });
+  $(document.body).addClass($.getUrlVar('page'));
+  var urlWithVar = $.getUrlVar('page');
+  window.history.pushState("", "", '/' + urlWithVar + '/');
 });
-$(document).ready(function() {
 
-  var page = GetURLParameter('page');
-  $(document.body).addClass(page);
+
+
+$(document).ready(function() {
 
   $(document).on('click', '#about', function() {
     $(document.body).addClass('about');
@@ -82,6 +87,7 @@ $(document).ready(function() {
     $(document.body).removeClass('marketing');
     $(document.body).removeClass('web');
     $(document.body).removeClass('coming');
+    window.history.pushState("", "", '/about/');
   });
   $(document).on('click', '#work', function() {
     $(document.body).addClass('work');
@@ -92,6 +98,7 @@ $(document).ready(function() {
     $(document.body).removeClass('marketing');
     $(document.body).removeClass('web');
     $(document.body).removeClass('coming');
+    window.history.pushState("", "", '/work/');
   });
   $(document).on('click', '#contact', function() {
     $(document.body).addClass('contact');
@@ -102,6 +109,7 @@ $(document).ready(function() {
     $(document.body).removeClass('marketing');
     $(document.body).removeClass('web');
     $(document.body).removeClass('coming');
+    window.history.pushState("", "", '/contact/');
   });
   $(document).on('click', '#home', function() {
     $(document.body).addClass('home');
@@ -112,6 +120,7 @@ $(document).ready(function() {
     $(document.body).removeClass('marketing');
     $(document.body).removeClass('web');
     $(document.body).removeClass('coming');
+    window.history.pushState("", "", '/');
   });
   $(document).on('click', '#marketing', function() {
     $(document.body).addClass('marketing');
@@ -122,6 +131,7 @@ $(document).ready(function() {
     $(document.body).removeClass('home');
     $(document.body).removeClass('web');
     $(document.body).removeClass('coming');
+    window.history.pushState("", "", '/marketing/');
   });
   $(document).on('click', '#web', function() {
     $(document.body).addClass('web');
@@ -132,6 +142,7 @@ $(document).ready(function() {
     $(document.body).removeClass('home');
     $(document.body).removeClass('marketing');
     $(document.body).removeClass('coming');
+    window.history.pushState("", "", '/web/');
   });
   $(document).on('click', '#coming', function() {
     $(document.body).addClass('coming');
@@ -142,5 +153,6 @@ $(document).ready(function() {
     $(document.body).removeClass('home');
     $(document.body).removeClass('marketing');
     $(document.body).removeClass('web');
+    window.history.pushState("", "", '/coming/');
   });
 });
