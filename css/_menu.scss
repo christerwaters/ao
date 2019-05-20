@@ -57,11 +57,12 @@ header .col-xs-12{
 	float:right;
 	z-index:1900;
 	transition: all 0.5s cubic-bezier(.66, 0, .1, 1);
+  box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0);
 }
 .s--up.swoosh:after,
 .swoosh:hover:after {
 	width: 100%;
-	float:left;
+	float:left;box-shadow: 0 10px 20px -20px  rgba(0,0,0,0.19), 0 6px 6px -6px rgba(0,0,0,0.23);
 }
 
 @media only screen and (min-width: $sm-scrn) {
