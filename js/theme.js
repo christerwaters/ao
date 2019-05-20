@@ -1,38 +1,3 @@
-
-var $el, $ps, $up, totalHeight;
-
-$(".overflow-rm-xs .button, .overflow-rm-sm .button, .overflow-rm-md .button, .overflow-rm-lg .button, .overflow-rm-xl .button ").click(function() {
-
-  totalHeight = 0
-
-  $el = $(this);
-  $p  = $el.parent();
-  $up = $p.parent();
-  $ps = $up.find("p:not('.read-more')");
-
-  // measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
-  $ps.each(function() {
-    totalHeight += $(this).outerHeight();
-  });
-
-  $up
-    .css({
-      // Set height to prevent instant jumpdown when max height is removed
-      "height": "auto",
-      "max-height": "100%"
-    })
-    .animate({
-      "height": "auto"
-    });
-
-  // fade out read-more
-  $p.fadeOut();
-
-  // prevent jump-down
-  return false;
-
-});
-
 lastScroll = 0;
 $(window).on('scroll',function() {
     var scroll = $(window).scrollTop();
@@ -69,9 +34,18 @@ $(document).ready(function() {
       return $.getUrlVars()[name];
     }
   });
-  $(document.body).addClass($.getUrlVar('page'));
-  var urlWithVar = $.getUrlVar('page');
-  window.history.pushState("", "", '/' + urlWithVar + '/');
+  var teller = $.getUrlVar('page');
+  if (teller == null){
+    $(document.body).addClass('home');
+    window.history.pushState("", "", '/');
+  }else{
+    $($(document.body)).attr('class', '');
+    $($(document.body)).attr('id', '');
+    $(document.body).addClass(teller);
+    $($(document.body)).attr('id', teller + 'ID');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+    window.history.pushState("", "", '/' + teller + '/');
+  }
 });
 
 
@@ -79,80 +53,44 @@ $(document).ready(function() {
 $(document).ready(function() {
 
   $(document).on('click', '#about', function() {
-    $(document.body).addClass('about');
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     window.history.pushState("", "", '/about/');
   });
   $(document).on('click', '#work', function() {
-    $(document.body).addClass('work');
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     window.history.pushState("", "", '/work/');
   });
   $(document).on('click', '#contact', function() {
-    $(document.body).addClass('contact');
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     window.history.pushState("", "", '/contact/');
   });
   $(document).on('click', '#home', function() {
-    $(document.body).addClass('home');
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
     window.history.pushState("", "", '/');
   });
-  $(document).on('click', '#marketing', function() {
-    $(document.body).addClass('marketing');
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('web');
-    $(document.body).removeClass('coming');
-    window.history.pushState("", "", '/marketing/');
-  });
   $(document).on('click', '#web', function() {
-    $(document.body).addClass('web');
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('coming');
     window.history.pushState("", "", '/web/');
   });
+  $(document).on('click', '#marketing', function() {
+    window.history.pushState("", "", '/marketing/');
+  });
   $(document).on('click', '#coming', function() {
-    $(document.body).addClass('coming');
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
-    $(document.body).removeClass('about');
-    $(document.body).removeClass('work');
-    $(document.body).removeClass('contact');
-    $(document.body).removeClass('home');
-    $(document.body).removeClass('marketing');
-    $(document.body).removeClass('web');
     window.history.pushState("", "", '/coming/');
   });
+
+  $(document).on('click', 'a', function() {
+    event.preventDefault();
+    var teller = $(this).attr("id");
+    $($(document.body)).attr('class', '');
+    $($(document.body)).attr('id', '');
+    $(document.body).addClass(teller);
+    $($(document.body)).attr('id', teller + 'ID');
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+  });
+});
+
+$(document).bind('mousemove', function(e){
+    $('.personimg').css({
+       top:   e.pageY + Math.floor((Math.random() * 5) + 1)-200
+    });
+    //$('.tail').css({
+    //   left:  e.pageX + Math.floor((Math.random() * 5) + 1),
+    //   top:   e.pageY + Math.floor((Math.random() * 5) + 1)
+    //});
 });
