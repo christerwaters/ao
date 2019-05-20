@@ -40,49 +40,27 @@ $(document).ready(function() {
     window.history.pushState("", "", '/');
   }else{
     $($(document.body)).attr('class', '');
-    $($(document.body)).attr('id', '');
     $(document.body).addClass(teller);
-    $($(document.body)).attr('id', teller + 'ID');
     $('html,body').animate({ scrollTop: 0 }, 'slow');
-    window.history.pushState("", "", '/' + teller + '/');
+    window.history.pushState("", "", '/' + teller);
   }
 });
 
+// on click do not forward to other url but change the URL dynamically and load other content. Very lazy version.. Needs to be reworked.
 
-
-$(document).ready(function() {
-
-  $(document).on('click', '#about', function() {
-    window.history.pushState("", "", '/about/');
-  });
-  $(document).on('click', '#work', function() {
-    window.history.pushState("", "", '/work/');
-  });
-  $(document).on('click', '#contact', function() {
-    window.history.pushState("", "", '/contact/');
-  });
-  $(document).on('click', '#home', function() {
+$(document).on('click', 'a', function() {
+  event.preventDefault();
+  var teller = $(this).attr("id");
+  $($(document.body)).attr('class', '');
+  $(document.body).addClass(teller);
+  if(teller=='home'){
     window.history.pushState("", "", '/');
-  });
-  $(document).on('click', '#web', function() {
-    window.history.pushState("", "", '/web/');
-  });
-  $(document).on('click', '#marketing', function() {
-    window.history.pushState("", "", '/marketing/');
-  });
-  $(document).on('click', '#coming', function() {
-    window.history.pushState("", "", '/coming/');
-  });
-
-  $(document).on('click', 'a', function() {
-    event.preventDefault();
-    var teller = $(this).attr("id");
-    $($(document.body)).attr('class', '');
-    $($(document.body)).attr('id', '');
-    $(document.body).addClass(teller);
-    $($(document.body)).attr('id', teller + 'ID');
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
-  });
+  }else if(teller==null){
+    window.history.pushState("", "", '/');
+  }else{
+    window.history.pushState("", "", '/' + teller);
+  }
+  $('html,body').animate({ scrollTop: 0 }, 'slow');
 });
 
 $(document).bind('mousemove', function(e){
