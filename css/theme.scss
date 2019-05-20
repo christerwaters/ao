@@ -18,7 +18,7 @@ canvas#mathglobe {
   width:20vw;
   height:20vw;
 }
-#particles-js{
+#webID{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -29,7 +29,7 @@ canvas#mathglobe {
 	background-position: 50% 50%;
 	top:0px;
 }
-#particles-js canvas.particles-js-canvas-el{
+#webID canvas.particles-js-canvas-el{
   position: fixed;
   width: 100%;
   height: 100%;
@@ -84,7 +84,7 @@ footer nav ul li {
     padding-bottom: 3px;
 }
 a{
-	color: #000;
+	color: inherit;
 	text-decoration: none;
 }
 a:hover{
@@ -224,7 +224,6 @@ blockquote::before{
 .portfolio-container:hover .portfolio-item-border{
   border:0px #ff0 solid;
   margin-left:0rem;
-  margin-top:0rem;
   width:0%;
   height:0%;
   transition:all .2s;
@@ -279,11 +278,11 @@ blockquote span{
 .txt-right{
 	text-align: right;
 }
-.tail img{
+.personimg img{
 	width:100%;
 	height:auto;
 }
-.tail{
+.personimg{
 	top:0;
 	left:10;
 	display:none;
@@ -292,7 +291,7 @@ blockquote span{
 	width:40%;
 	transition: top .2s, left .2s;
 }
-.person:hover .tail{
+.person:hover .personimg{
 	position: absolute;
 	float: left;
 	display:block;
@@ -406,48 +405,52 @@ a:hover{
 		padding-right:2rem;
 	}
 }
+body.benefits .benefits,
 body.coming .coming,
-body.web .web,
-body.marketing .marketing,
 body .intro,
 body .intro2,
 body .work,
 body .about,
 body .contact{
-	max-height:1000%;
+	max-height:9000px;
 	opacity:1;
-  -webkit-transition: opacity 390ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  -o-transition: opacity 390ms ease-out 0s, max-height 260ms ease-in-out 0s;
-  transition: opacity 390ms ease-out 0s, max-height 260ms ease-in-out 0s;
+  -webkit-transition: opacity 1290ms, max-height 660ms;
+  -o-transition: opacity 1290ms, max-height 660ms;
+  transition: opacity 1290ms, max-height 660ms;
+}
+.footer h2{
+
+	    margin-bottom: 1rem;
 }
 body.contact .intro,
 body.contact .intro2,
 body.contact .work,
 body.contact .about,
-body.contact .web,
-body.contact .marketing,
 body.contact .coming,
+body.contact .benefits,
 body.about .intro,
 body.about .intro2,
 body.about .contact,
 body.about .work,
-body.about .web,
-body.about .marketing,
 body.about .coming,
 body.work .intro,
 body.work .intro2,
 body.work .contact,
 body.work .about,
-body.work .web,
-body.work .marketing,
 body.work .coming,
+body.work .benefits,
 body.coming .contact,
 body.coming .work,
-body.coming .about
-body.home .web,
-body.home .marketing,
-body.home .coming{
+body.coming .about,
+body.home .coming,
+body.benefits .intro,
+body.benefits .intro2,
+body.benefits .contact,
+body.benefits .about,
+body.benefits .coming,
+body.benefits .work{
 	max-height:0px;
+	overflow:hidden;
 	opacity:0;
   -webkit-transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
   -o-transition: opacity 260ms ease-out 0s, max-height 390ms ease-in-out 0s;
