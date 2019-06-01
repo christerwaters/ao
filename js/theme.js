@@ -49,18 +49,22 @@ $(document).ready(function() {
 // on click do not forward to other url but change the URL dynamically and load other content. Very lazy version.. Needs to be reworked.
 
 $(document).on('click', 'a', function() {
-  event.preventDefault();
-  var teller = $(this).attr("id");
-  $($(document.body)).attr('class', '');
-  $(document.body).addClass(teller);
-  if(teller=='home'){
-    window.history.pushState("", "", '/');
-  }else if(teller==null){
-    window.history.pushState("", "", '/');
-  }else{
-    window.history.pushState("", "", '/' + teller);
+  if ($(this).attr("id") == "work") {
+    console.log('going to work page');
+  } else {
+    event.preventDefault();
+    var teller = $(this).attr("id");
+    $($(document.body)).attr('class', '');
+    $(document.body).addClass(teller);
+    if(teller=='home'){
+      window.history.pushState("", "", '/');
+    }else if(teller==null){
+      window.history.pushState("", "", '/');
+    }else{
+      window.history.pushState("", "", '/' + teller);
+    }
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
   }
-  $('html,body').animate({ scrollTop: 0 }, 'slow');
 });
 
 $(document).bind('mousemove', function(e){
